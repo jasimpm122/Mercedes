@@ -89,9 +89,9 @@ Erleben Sie den Komfort und die Luxusklasse von Mercedes ohne Grenzen. Lassen Si
 
             {/* Team Members Grid */}
             <Grid container spacing={isMobileOrTablet ? 2 : 5} justifyContent="center">
-                {[{ name: "Olaf Hemmer", role: "Sales Manager", description: "MBA in Marketing, 10+ years in the automotive industry", image: 'https://media.licdn.com/dms/image/v2/D4E03AQFZ0h4UpJywdQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1668170929978?e=2147483647&v=beta&t=9XzJt_1OL7B0LhUJOiaCbiLBupwvNZcJkux1sfopMck' },
-                  { name: "Michael Brill", role: "Senior Sales Executive", description: "Bachelor's in Business Administration, 8 years in sales", image: 'https://media.licdn.com/dms/image/v2/C4D22AQEFVyV8Lx1emQ/feedshare-shrink_800/feedshare-shrink_800/0/1625149806291?e=2147483647&v=beta&t=frWYr0rjHuNy-doAru0XtJAL70rNU9JABzTH2-hlSy4' },
-                  { name: "Sebastian Mitusch", role: "Sales Consultant", description: "Diploma in Automotive Sales, 5 years in customer relations", image: 'https://media.licdn.com/dms/image/v2/C4E10AQGAFniR7xYOGg/image-shrink_800/image-shrink_800/0/1677574812229?e=2147483647&v=beta&t=qvK_0MruY75tH98oHEYAyjM7b_DGu1UjTR8uX5ET_So' }]
+                {[{ name: "Marius Leutner", role: "Sales Manager", description: "MBA in Marketing, 10+ years in the automotive industry", image: 'https://media.licdn.com/dms/image/v2/D4E03AQFZ0h4UpJywdQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1668170929978?e=2147483647&v=beta&t=9XzJt_1OL7B0LhUJOiaCbiLBupwvNZcJkux1sfopMck' },
+                  { name: "Marvin Appel", role: "Senior Sales Executive", description: "Bachelor's in Business Administration, 8 years in sales", image: 'https://media.licdn.com/dms/image/v2/C4D22AQEFVyV8Lx1emQ/feedshare-shrink_800/feedshare-shrink_800/0/1625149806291?e=2147483647&v=beta&t=frWYr0rjHuNy-doAru0XtJAL70rNU9JABzTH2-hlSy4' },
+                  { name: "Pablo Jemenez", role: "Sales Consultant", description: "Diploma in Automotive Sales, 5 years in customer relations", image: 'https://media.licdn.com/dms/image/v2/C4E10AQGAFniR7xYOGg/image-shrink_800/image-shrink_800/0/1677574812229?e=2147483647&v=beta&t=qvK_0MruY75tH98oHEYAyjM7b_DGu1UjTR8uX5ET_So' }]
                   .map((member, index) => (
                     <Grid item xs={12} sm={6} md={3} key={index}>
                         <Card style={{
