@@ -20,8 +20,8 @@ const Header = () => {
       </div>
       <nav className={`navbar ${isTabletOrMobile ? 'mobile-navbar' : ''}`}>
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/service">Service</Link> {/* Added Service link */}
+        {/* <Link to="/about">About</Link>
+        <Link to="/service">Service</Link> Added Service link */}
       </nav>
     </header>
   );
