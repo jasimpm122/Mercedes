@@ -36,7 +36,7 @@ function Details() {
                 color: '#333',
                 marginBottom: '10px',
             }}>
-                KLAUS SCHELLER GMBH
+                KRG
             </h2>
             <p style={{ marginBottom: '20px' }}>
                 Vertreten durch die Geschäftsführer: Andreas Scheller, Anna Scheller und Matthias Keeve-Scheller<br />
@@ -57,7 +57,7 @@ function Details() {
                 67098 Bad Dürkheim<br />
                 Tel.: +49 6322 9425-0<br />
                 Fax: +49 6322 9425-15<br />
-                E-Mail: <a href="mailto:kundendienst@bmw-scheller.com" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@bmw-scheller.com</a>
+                E-Mail: <a href="mailto:kundendienst@krg.com" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@krg.com</a>
             </p>
 
             <h3 style={{
@@ -77,7 +77,7 @@ function Details() {
                 eingesehen und abgerufen werden.
             </p>
             <p style={{ marginBottom: '20px' }}>
-                Die Angaben in diesem Impressum gelten auch für die folgenden Online-Auftritte der Klaus Scheller GmbH:
+                Die Angaben in diesem Impressum gelten auch für die folgenden Online-Auftritte der KRG:
             </p>
             <ul style={{ listStyleType: 'none', paddingLeft: '0', marginBottom: '20px', textAlign: isMobileOrTablet ? 'center' : 'left' }}>
                 <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none', marginRight: '15px' }}>Facebook</a></li>
@@ -117,6 +117,7 @@ function Details() {
             </p>
         </div>
     );
+
 }
 
 export default Details;

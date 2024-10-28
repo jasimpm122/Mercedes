@@ -21,7 +21,7 @@ function Contact() {
                 marginBottom: '20px',
                 color: '#333',
             }}>
-                Klaus Scheller GmbH - Kontakt
+                KRG - Kontakt
             </h2>
             <div className="contact-content" style={{
                 display: 'flex',
@@ -52,7 +52,7 @@ function Contact() {
                         <strong>Fax:</strong> +49 6322 9425-15
                     </p>
                     <p style={{ marginBottom: '20px' }}>
-                        <strong>Email:</strong> <a href="mailto:kundendienst@bmw-scheller.com" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@bmw-scheller.com</a>
+                        <strong>Email:</strong> <a href="mailto:kundendienst@krg.com" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@krg.com</a>
                     </p>
                     
                     <h3 style={{

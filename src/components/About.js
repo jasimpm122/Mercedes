@@ -55,12 +55,9 @@ function About() {
                         lineHeight: '1.6',
                         textAlign: isMobileOrTablet ? 'center' : 'left'
                     }}>
-                    Wir sind ein führendes Autohaus mit einer Leidenschaft für die Bereitstellung der besten Fahrzeuge und des besten Kundendienstes.
-                    Unsere Mission ist es, Kunden dabei zu helfen, das perfekte Auto zu finden, das ihren Bedürfnissen und ihrem Budget entspricht.
-                    Mit jahrelanger Erfahrung und einer großen Auswahl an Premiumfahrzeugen gewährleisten wir erstklassige Qualität bei Produkten und
-                    Dienstleistungen. Unser Expertenteam begleitet Sie durch jeden Schritt des Prozesses, von der Auswahl des richtigen Modells bis zum
-                    Abschluss des Kaufs. Zusätzlich versenden wir Autos weltweit und arbeiten mit mehreren Transportunternehmen zusammen, um eine sichere
-                    und effiziente Lieferung zu gewährleisten.
+                    Wir sind stolz darauf, Ihnen eine große Auswahl an hochwertigen gebrauchten Mercedes-Fahrzeugen anzubieten, die alle sorgfältig geprüft wurden, um höchste Qualitätsstandards zu gewährleisten. Unsere Mercedes-Modelle stehen für Eleganz, Leistung und Zuverlässigkeit, und wir sind überzeugt, dass Sie bei uns das perfekte Fahrzeug für Ihre Bedürfnisse finden werden. Ob sportliche Limousine, luxuriöser SUV oder stilvolles Cabriolet – unsere Fahrzeuge bieten Ihnen das unvergleichliche Fahrerlebnis, das Sie von Mercedes erwarten.
+Unser Angebot richtet sich an Kunden weltweit, und dank unseres professionellen Lieferservices müssen Sie sich keine Gedanken über die Entfernung machen. Ganz egal, wo Sie sich befinden – wir liefern Ihnen Ihr Traumfahrzeug sicher und zuverlässig bis vor die Haustür. Mit unserem erstklassigen Service sorgen wir dafür, dass der Kauf eines gebrauchten Mercedes für Sie so einfach und angenehm wie möglich wird. Jeder unserer Mercedes ist nicht nur ein Fahrzeug, sondern ein Versprechen von Qualität und Fahrspaß.
+Erleben Sie den Komfort und die Luxusklasse von Mercedes ohne Grenzen. Lassen Sie sich überzeugen und entdecken Sie, wie wir Ihre automobile Leidenschaft wahr werden lassen können.
                 </Typography>
 
                 {/* Car Illustration */}
@@ -92,9 +89,9 @@ function About() {
 
             {/* Team Members Grid */}
             <Grid container spacing={isMobileOrTablet ? 2 : 5} justifyContent="center">
-                {[{ name: "Olaf Hemmer", role: "Sales Manager", description: "MBA in Marketing, 10+ years in the automotive industry", image: member1 },
-                  { name: "Michael Brill", role: "Senior Sales Executive", description: "Bachelor's in Business Administration, 8 years in sales", image: member2 },
-                  { name: "Sebastian Mitusch", role: "Sales Consultant", description: "Diploma in Automotive Sales, 5 years in customer relations", image: member3 }]
+                {[{ name: "Olaf Hemmer", role: "Sales Manager", description: "MBA in Marketing, 10+ years in the automotive industry", image: 'https://media.licdn.com/dms/image/v2/D4E03AQFZ0h4UpJywdQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1668170929978?e=2147483647&v=beta&t=9XzJt_1OL7B0LhUJOiaCbiLBupwvNZcJkux1sfopMck' },
+                  { name: "Michael Brill", role: "Senior Sales Executive", description: "Bachelor's in Business Administration, 8 years in sales", image: 'https://media.licdn.com/dms/image/v2/C4D22AQEFVyV8Lx1emQ/feedshare-shrink_800/feedshare-shrink_800/0/1625149806291?e=2147483647&v=beta&t=frWYr0rjHuNy-doAru0XtJAL70rNU9JABzTH2-hlSy4' },
+                  { name: "Sebastian Mitusch", role: "Sales Consultant", description: "Diploma in Automotive Sales, 5 years in customer relations", image: 'https://media.licdn.com/dms/image/v2/C4E10AQGAFniR7xYOGg/image-shrink_800/image-shrink_800/0/1677574812229?e=2147483647&v=beta&t=qvK_0MruY75tH98oHEYAyjM7b_DGu1UjTR8uX5ET_So' }]
                   .map((member, index) => (
                     <Grid item xs={12} sm={6} md={3} key={index}>
                         <Card style={{
@@ -142,7 +139,7 @@ function About() {
 
             {/* Contact Email */}
             <Link
-                to="mailto:kundendienst@bmw-scheller.com"
+                to="mailto:kundendienst@krg.com"
                 style={{
                     color: '#007BFF',
                     fontSize: isMobile ? '14px' : isMobileOrTablet ? '16px' : '18px',
@@ -152,7 +149,7 @@ function About() {
                     marginTop: '10px',
                     fontWeight: '500'
                 }}>
-                kundendienst@bmw-scheller.com
+                kundendienst@krg.com
             </Link>
 
             {/* Imprint Link */}
