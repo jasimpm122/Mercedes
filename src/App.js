@@ -15,7 +15,7 @@ import Contact from './components/Contact'; // Import the Contact component
 
 function App() {
   const handleFormSubmit = (formData) => {
-    fetch('https://cardealers-latest-1.onrender.com/client/enquiry', {
+    fetch('https://cardealers-latest-1.onrender.com/client/enquiry2', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
