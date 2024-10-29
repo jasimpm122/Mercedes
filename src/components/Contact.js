@@ -52,7 +52,7 @@ function Contact() {
                         <strong>Fax:</strong> +49 6322 9425-15
                     </p>
                     <p style={{ marginBottom: '20px' }}>
-                        <strong>Email:</strong> <a href="mailto:kundendienst@krg.com" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@krg.com</a>
+                        <strong>Email:</strong> <a href="mailto:kundendienst@mercedes-krg.com" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@mercedes-krg.com</a>
                     </p>
                     
                     <h3 style={{
