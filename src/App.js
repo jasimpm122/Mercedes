@@ -89,6 +89,7 @@ Mercedes-Benz – ein Symbol für Luxus und zeitlose Eleganz. Die aktuellen Merc
                       images={car.images}
                       title={car.title}
                       description={car.description}
+                      km={car.km}
                       onSubmitForm={handleFormSubmit}
                       price={car.price} 
                     />

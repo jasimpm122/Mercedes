@@ -39,9 +39,8 @@ function Details() {
                 KRG
             </h2>
             <p style={{ marginBottom: '20px' }}>
-                Vertreten durch die Geschäftsführer: Andreas Scheller, Anna Scheller und Matthias Keeve-Scheller<br />
-                Handelsregister Amtsgericht Ludwigshafen am Rhein HRB 11234<br />
-                USt.-IdNr: DE149368823
+            Die Webseite www.mercedes-rkg.de fasst die Darstellung mehrerer Unternehmen zusammen, die jedes für sich wirtschaftlich eigenständig und rechtlich selbständig ihre Leistungen anbieten. Die einzelnen Gesellschaften kommen ihren Verpflichtungen aus dem Telemediengesetz und der Dienstleistungs-Informationspflichten-Verordnung einzelverantwortlich nach.<br />
+            Die zusammenfassende Darstellung bedeutet nicht, dass jedes Unternehmen diese Leistungen anbietet, sondern dass einzelne Unternehmen diese Leistungen ganz oder teilweise, auf jeden Fall aber unabhängig von den anderen Unternehmen anbieten.<br />
             </p>
 
             <h3 style={{
@@ -50,14 +49,14 @@ function Details() {
                 color: '#333',
                 marginBottom: '5px',
             }}>
-                Kontakt
+                Versicherungsvermittlerregister
             </h3>
             <p style={{ marginBottom: '20px' }}>
-                Triftweg 10<br />
-                67098 Bad Dürkheim<br />
-                Tel.: +49 6322 9425-0<br />
+            www.vermittlerregister.info<br />
+            Register-Nr. D-JRJ4-OPY9P-11<br />
+            Erlaubnis nach § 34d ABS. 1 GewO, erteilt durch die IHK Bonn/Rhein-Sieg, Bonner Talweg 17, 53113 Bonn<br />
                 Fax: +49 6322 9425-15<br />
-                E-Mail: <a href="mailto:kundendienst@krg.com" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@krg.com</a>
+                E-Mail: <a href="mailto:kundendienst@mercedes-krg.de" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@mercedes-krg.com</a>
             </p>
 
             <h3 style={{
@@ -108,7 +107,7 @@ function Details() {
                 Streitschlichtung
             </h3>
             <p style={{ marginBottom: '10px' }}>
-                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
+            Die EU-Kommission hat eine Internetplattform zur Online-Beilegung von Streitigkeiten (sog. „OS-Plattform“) geschaffen. Die OS-Plattform dient als Anlaufstelle zur außergerichtlichen Beilegung von Streitigkeiten betreffend vertragliche Verpflichtungen, die aus Online-Kaufverträgen erwachsen. Sie können die OS-Plattform unter dem folgenden Link erreichen:
                 <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none', marginLeft: '5px' }}>https://ec.europa.eu/consumers/odr</a>.
             </p>
             <p>

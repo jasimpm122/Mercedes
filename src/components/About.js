@@ -139,7 +139,7 @@ Erleben Sie den Komfort und die Luxusklasse von Mercedes ohne Grenzen. Lassen Si
 
             {/* Contact Email */}
             <Link
-                to="mailto:kundendienst@krg.com"
+                to="mailto:kundendienst@mercededes-krg.de"
                 style={{
                     color: '#007BFF',
                     fontSize: isMobile ? '14px' : isMobileOrTablet ? '16px' : '18px',
@@ -149,7 +149,7 @@ Erleben Sie den Komfort und die Luxusklasse von Mercedes ohne Grenzen. Lassen Si
                     marginTop: '10px',
                     fontWeight: '500'
                 }}>
-                kundendienst@krg.com
+                kundendienst@mercedes-krg.de
             </Link>
 
             {/* Imprint Link */}
