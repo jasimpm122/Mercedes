@@ -14,11 +14,9 @@ export  const cars = [
 'https://prod.pictures.autoscout24.net/listing-images/e922be47-66a8-4cc6-b3a4-89025898bcc1_e27f6ede-b791-46a9-bf0a-63b0c37d1f1a.jpg/1280x960.webp',
 'https://prod.pictures.autoscout24.net/listing-images/e922be47-66a8-4cc6-b3a4-89025898bcc1_5fec70c7-bc2c-4fba-84fd-191b776ffa6d.jpg/1280x960.webp',
 'https://prod.pictures.autoscout24.net/listing-images/e922be47-66a8-4cc6-b3a4-89025898bcc1_f4105b92-3d8a-4b9a-87a0-65fb55859953.jpg/1280x960.webp',
-
-
     ]
     ,title: 'Mercedes-Benz CLA 35 AMG Shooting Brake 4Matic LED Navi Keyless Dyn. Kurvenlicht Parklenkass.',
-    price: 'Ab 37.789 €',
+    price: 'Ab 52.789 €',
     km:'Nicht über 100.000KM',
     description: 'Die A-Klasse ist ein Auto, das begeistert.Das revolutionäre Infotainment-System MBUX, welches durch künstliche Intelligenz die Vorlieben des Fahrers lernt, maximale Connectivity bietet, navigiert, korrigiert und aushilft macht sie zu einem einmaligen Fahrzeug in der Kompaktklasse. Mit "Hey Mercedes" reichen nun zwei Worte, um das Fahrzeug nach Belieben zu steuern - Navigation, Klimaanlage, Sitzheizung, Musik, Design und vieles mehr lassen sich durch die Sprachbefehle intuitiv bedienen. Der Touchpad auf der Mittelkonsole, die zwei hochauflösenden Touchscreens auf dem Armaturenbrett und die Touchpads am Multifunktions-Lenkrad helfen ebenfalls bei der Bedienung der zahlreichen Funktionen. MBUX speichert die präferierten Einstellungen des Fahrers, passt sich an ihn an, lernt ihn kennen. Und auf Wunsch hilft es mit dem In-Car-Office sogar, den Arbeitstag zu organisieren. All das findet sich nun auch in einer noch erwachseneren Stufenheck-Variante der A-Klasse. '
   },
@@ -35,7 +33,7 @@ export  const cars = [
 'https://prod.pictures.autoscout24.net/listing-images/d7e10d36-ebe0-43d9-b4fb-5366ea362183_0343283a-30eb-4d4d-b805-9a53a713cde6.jpg/1280x960.webp',
     ]
     ,title: 'Mercedes-Benz GLA 200 AMG*7G*LED*PANO*KAM*NAVI*TEMPO*19ZO',
-    price: 'Ab 25.180 €',
+    price: 'Ab 40.180 €',
         km:'Nicht über 100.000KM',
     description: 'Die A-Klasse ist ein Auto, das begeistert.Das revolutionäre Infotainment-System MBUX, welches durch künstliche Intelligenz die Vorlieben des Fahrers lernt, maximale Connectivity bietet, navigiert, korrigiert und aushilft macht sie zu einem einmaligen Fahrzeug in der Kompaktklasse. Mit "Hey Mercedes" reichen nun zwei Worte, um das Fahrzeug nach Belieben zu steuern - Navigation, Klimaanlage, Sitzheizung, Musik, Design und vieles mehr lassen sich durch die Sprachbefehle intuitiv bedienen. Der Touchpad auf der Mittelkonsole, die zwei hochauflösenden Touchscreens auf dem Armaturenbrett und die Touchpads am Multifunktions-Lenkrad helfen ebenfalls bei der Bedienung der zahlreichen Funktionen. MBUX speichert die präferierten Einstellungen des Fahrers, passt sich an ihn an, lernt ihn kennen. Und auf Wunsch hilft es mit dem In-Car-Office sogar, den Arbeitstag zu organisieren. All das findet sich nun auch in einer noch erwachseneren Stufenheck-Variante der A-Klasse. '
   },
@@ -54,7 +52,7 @@ export  const cars = [
 'https://prod.pictures.autoscout24.net/listing-images/6a260893-606a-4801-af91-4ea82e0325eb_1d5555fe-7b5d-4c5b-b379-73555a5c9873.jpg/1280x960.webp'
     ]
     ,title: 'Mercedes-Benz A 200 AMG Pack * Nightpack * Pano * Camera * LED *',
-    price: 'Ab 34.980 €',
+    price: 'Ab 49.980 €',
     km:'Nicht über 100.000KM',
     description: 'Die A-Klasse ist ein Auto, das begeistert.Das revolutionäre Infotainment-System MBUX, welches durch künstliche Intelligenz die Vorlieben des Fahrers lernt, maximale Connectivity bietet, navigiert, korrigiert und aushilft macht sie zu einem einmaligen Fahrzeug in der Kompaktklasse. Mit "Hey Mercedes" reichen nun zwei Worte, um das Fahrzeug nach Belieben zu steuern - Navigation, Klimaanlage, Sitzheizung, Musik, Design und vieles mehr lassen sich durch die Sprachbefehle intuitiv bedienen. Der Touchpad auf der Mittelkonsole, die zwei hochauflösenden Touchscreens auf dem Armaturenbrett und die Touchpads am Multifunktions-Lenkrad helfen ebenfalls bei der Bedienung der zahlreichen Funktionen. MBUX speichert die präferierten Einstellungen des Fahrers, passt sich an ihn an, lernt ihn kennen. Und auf Wunsch hilft es mit dem In-Car-Office sogar, den Arbeitstag zu organisieren. All das findet sich nun auch in einer noch erwachseneren Stufenheck-Variante der A-Klasse. '
   },
@@ -88,7 +86,7 @@ export  const cars = [
 
     ]
     ,title: 'Mercedes-Benz GL 500 GL 500 BlueEfficiency 4Matic (166.873)',
-    price: 'Ab 36.980 €',
+    price: 'Ab 51.980 €',
     km:'Nicht über 100.000KM',
     description: 'Die A-Klasse ist ein Auto, das begeistert.Das revolutionäre Infotainment-System MBUX, welches durch künstliche Intelligenz die Vorlieben des Fahrers lernt, maximale Connectivity bietet, navigiert, korrigiert und aushilft macht sie zu einem einmaligen Fahrzeug in der Kompaktklasse. Mit "Hey Mercedes" reichen nun zwei Worte, um das Fahrzeug nach Belieben zu steuern - Navigation, Klimaanlage, Sitzheizung, Musik, Design und vieles mehr lassen sich durch die Sprachbefehle intuitiv bedienen. Der Touchpad auf der Mittelkonsole, die zwei hochauflösenden Touchscreens auf dem Armaturenbrett und die Touchpads am Multifunktions-Lenkrad helfen ebenfalls bei der Bedienung der zahlreichen Funktionen. MBUX speichert die präferierten Einstellungen des Fahrers, passt sich an ihn an, lernt ihn kennen. Und auf Wunsch hilft es mit dem In-Car-Office sogar, den Arbeitstag zu organisieren. All das findet sich nun auch in einer noch erwachseneren Stufenheck-Variante der A-Klasse. '
   },
@@ -102,7 +100,7 @@ export  const cars = [
       'https://prod.pictures.autoscout24.net/listing-images/b78ece4b-358e-4812-98fd-046a1a774f45_cefea02d-9740-4398-8ccc-73f9d05d73ee.jpg/720x540.webp',
     ]
     ,title: 'Mercedes-Benz GL 63 AMG 4Matic*7Sitze-Pano-AHK-Massage*',
-    price: 'Ab 49.980 €',
+    price: 'Ab 64.980 €',
     km:'Nicht über 100.000KM',
     description: 'Die A-Klasse ist ein Auto, das begeistert.Das revolutionäre Infotainment-System MBUX, welches durch künstliche Intelligenz die Vorlieben des Fahrers lernt, maximale Connectivity bietet, navigiert, korrigiert und aushilft macht sie zu einem einmaligen Fahrzeug in der Kompaktklasse. Mit "Hey Mercedes" reichen nun zwei Worte, um das Fahrzeug nach Belieben zu steuern - Navigation, Klimaanlage, Sitzheizung, Musik, Design und vieles mehr lassen sich durch die Sprachbefehle intuitiv bedienen. Der Touchpad auf der Mittelkonsole, die zwei hochauflösenden Touchscreens auf dem Armaturenbrett und die Touchpads am Multifunktions-Lenkrad helfen ebenfalls bei der Bedienung der zahlreichen Funktionen. MBUX speichert die präferierten Einstellungen des Fahrers, passt sich an ihn an, lernt ihn kennen. Und auf Wunsch hilft es mit dem In-Car-Office sogar, den Arbeitstag zu organisieren. All das findet sich nun auch in einer noch erwachseneren Stufenheck-Variante der A-Klasse. '
   },
@@ -116,7 +114,7 @@ export  const cars = [
       'https://prod.pictures.autoscout24.net/listing-images/b78ece4b-358e-4812-98fd-046a1a774f45_cefea02d-9740-4398-8ccc-73f9d05d73ee.jpg/720x540.webp',
     ]
     ,title: 'Mercedes-Benz GL 63 AMG 4Matic*7Sitze-Pano-AHK-Massage*',
-    price: 'Ab 49.980 €',
+    price: 'Ab 70.980 €',
     km:'Nicht über 100.000KM',
     description: 'Die A-Klasse ist ein Auto, das begeistert.Das revolutionäre Infotainment-System MBUX, welches durch künstliche Intelligenz die Vorlieben des Fahrers lernt, maximale Connectivity bietet, navigiert, korrigiert und aushilft macht sie zu einem einmaligen Fahrzeug in der Kompaktklasse. Mit "Hey Mercedes" reichen nun zwei Worte, um das Fahrzeug nach Belieben zu steuern - Navigation, Klimaanlage, Sitzheizung, Musik, Design und vieles mehr lassen sich durch die Sprachbefehle intuitiv bedienen. Der Touchpad auf der Mittelkonsole, die zwei hochauflösenden Touchscreens auf dem Armaturenbrett und die Touchpads am Multifunktions-Lenkrad helfen ebenfalls bei der Bedienung der zahlreichen Funktionen. MBUX speichert die präferierten Einstellungen des Fahrers, passt sich an ihn an, lernt ihn kennen. Und auf Wunsch hilft es mit dem In-Car-Office sogar, den Arbeitstag zu organisieren. All das findet sich nun auch in einer noch erwachseneren Stufenheck-Variante der A-Klasse. '
   },
@@ -131,7 +129,7 @@ export  const cars = [
 'https://prod.pictures.autoscout24.net/listing-images/b456f349-ecc4-493b-a718-275cd79d4aa3_3f0045b4-8cd5-4df9-a278-cd6ba70bf8cb.jpg/720x540.webp'
     ]
     ,title: 'Mercedes-Benz GL 63 AMG AMG 4Matic 7-SITZ PANO AHK STDHZG 360°CAM',
-    price: 'Ab 59.980 €',
+    price: 'Ab 74.980 €',
     km:'Nicht über 100.000KM',
     description: 'Die A-Klasse ist ein Auto, das begeistert.Das revolutionäre Infotainment-System MBUX, welches durch künstliche Intelligenz die Vorlieben des Fahrers lernt, maximale Connectivity bietet, navigiert, korrigiert und aushilft macht sie zu einem einmaligen Fahrzeug in der Kompaktklasse. Mit "Hey Mercedes" reichen nun zwei Worte, um das Fahrzeug nach Belieben zu steuern - Navigation, Klimaanlage, Sitzheizung, Musik, Design und vieles mehr lassen sich durch die Sprachbefehle intuitiv bedienen. Der Touchpad auf der Mittelkonsole, die zwei hochauflösenden Touchscreens auf dem Armaturenbrett und die Touchpads am Multifunktions-Lenkrad helfen ebenfalls bei der Bedienung der zahlreichen Funktionen. MBUX speichert die präferierten Einstellungen des Fahrers, passt sich an ihn an, lernt ihn kennen. Und auf Wunsch hilft es mit dem In-Car-Office sogar, den Arbeitstag zu organisieren. All das findet sich nun auch in einer noch erwachseneren Stufenheck-Variante der A-Klasse. '
   },
@@ -146,7 +144,7 @@ export  const cars = [
 'https://prod.pictures.autoscout24.net/listing-images/b456f349-ecc4-493b-a718-275cd79d4aa3_3f0045b4-8cd5-4df9-a278-cd6ba70bf8cb.jpg/720x540.webp'
     ]
     ,title: 'Mercedes-Benz GL 63 AMG AMG 4Matic 7-SITZ PANO AHK STDHZG 360°CAM',
-    price: 'Ab 59.980 €',
+    price: 'Ab 80.980 €',
     km:'Nicht über 100.000KM',
     description: 'Die A-Klasse ist ein Auto, das begeistert.Das revolutionäre Infotainment-System MBUX, welches durch künstliche Intelligenz die Vorlieben des Fahrers lernt, maximale Connectivity bietet, navigiert, korrigiert und aushilft macht sie zu einem einmaligen Fahrzeug in der Kompaktklasse. Mit "Hey Mercedes" reichen nun zwei Worte, um das Fahrzeug nach Belieben zu steuern - Navigation, Klimaanlage, Sitzheizung, Musik, Design und vieles mehr lassen sich durch die Sprachbefehle intuitiv bedienen. Der Touchpad auf der Mittelkonsole, die zwei hochauflösenden Touchscreens auf dem Armaturenbrett und die Touchpads am Multifunktions-Lenkrad helfen ebenfalls bei der Bedienung der zahlreichen Funktionen. MBUX speichert die präferierten Einstellungen des Fahrers, passt sich an ihn an, lernt ihn kennen. Und auf Wunsch hilft es mit dem In-Car-Office sogar, den Arbeitstag zu organisieren. All das findet sich nun auch in einer noch erwachseneren Stufenheck-Variante der A-Klasse. '
   },
@@ -162,7 +160,7 @@ export  const cars = [
 
     ]
     ,title: 'Mercedes-Benz B 200',
-    price: 'Ab 22.980 €',
+    price: 'Ab 40.980 €',
     km:'Nicht über 100.000KM',
     description: 'Die A-Klasse ist ein Auto, das begeistert.Das revolutionäre Infotainment-System MBUX, welches durch künstliche Intelligenz die Vorlieben des Fahrers lernt, maximale Connectivity bietet, navigiert, korrigiert und aushilft macht sie zu einem einmaligen Fahrzeug in der Kompaktklasse. Mit "Hey Mercedes" reichen nun zwei Worte, um das Fahrzeug nach Belieben zu steuern - Navigation, Klimaanlage, Sitzheizung, Musik, Design und vieles mehr lassen sich durch die Sprachbefehle intuitiv bedienen. Der Touchpad auf der Mittelkonsole, die zwei hochauflösenden Touchscreens auf dem Armaturenbrett und die Touchpads am Multifunktions-Lenkrad helfen ebenfalls bei der Bedienung der zahlreichen Funktionen. MBUX speichert die präferierten Einstellungen des Fahrers, passt sich an ihn an, lernt ihn kennen. Und auf Wunsch hilft es mit dem In-Car-Office sogar, den Arbeitstag zu organisieren. All das findet sich nun auch in einer noch erwachseneren Stufenheck-Variante der A-Klasse. '
   }
