@@ -76,25 +76,25 @@ function CarItem({ images, title, description, price, km, onSubmitForm }) {
                     {images && images.length > 0 ? (
                         <div className="image-slider" style={{
                             maxWidth: isTabletOrMobile ? '100%' : '600px',
-                            margin: isTabletOrMobile ? '0 auto' : '0',
-                            display: 'flex',
+                            margin: isTabletOrMobile ? '0 auto' : '0', 
+                            display: 'flex', 
                             alignItems: 'center',
                             justifyContent: 'center',
                             position: 'relative'
                         }}>
                             <button className="prev" onClick={goToPrevImage}>&lt;</button>
-                            <img
-                                src={images[currentImageIndex]}
-                                alt={title}
-                                className="car-image"
-                                style={{
-                                    width: '100%',
-                                    maxWidth: isTabletOrMobile ? '100%' : '600px',
-                                    height: isMobile ? '200px' : 'auto',
-                                    minHeight: isTabletOrMobile ? 'auto' : '400px',
-                                    objectFit: 'contain',
-                                    borderRadius: '8px'
-                                }}
+                            <img 
+                                src={images[currentImageIndex]} 
+                                alt={title} 
+                                className="car-image" 
+                                style={{ 
+                                    width: '100%', 
+                                    maxWidth: isTabletOrMobile ? '100%' : '600px',  
+                                    height: isMobile ? '200px' : 'auto', 
+                                    minHeight: isTabletOrMobile ? 'auto' : '400px', 
+                                    objectFit: 'contain',  
+                                    borderRadius: '8px' 
+                                }} 
                             />
                             <button className="next" onClick={goToNextImage}>&gt;</button>
                         </div>
@@ -102,17 +102,17 @@ function CarItem({ images, title, description, price, km, onSubmitForm }) {
                         <p style={{ textAlign: 'center' }}>No images available.</p>
                     )}
                 </Grid>
-
+                
                 <Grid item xs={12} sm={6}>
                     <div className="car-description" style={{ padding: isTabletOrMobile ? '0 16px' : '0', textAlign: isMobile ? 'center' : 'left' }}>
                         <h3 className='car-title' style={{ fontSize: '2vw', margin: '10px 0', color: '#111', fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}>
                             {title}
                         </h3>
                         <p className='car-description-text' style={{ fontSize: '1.2vw', margin: '10px 0', color: '#777', fontFamily: 'Arial, sans-serif' }}>
-                            {isTabletOrMobile || showFullDescription ? description : ${truncatedDescription}... }
+                            {isTabletOrMobile || showFullDescription ? description : `${truncatedDescription}... `}
                             {!isTabletOrMobile && !showFullDescription && (
-                                <span
-                                    onClick={() => setShowFullDescription(true)}
+                                <span 
+                                    onClick={() => setShowFullDescription(true)} 
                                     style={{ color: '#555', cursor: 'pointer' }}>
                                     Mehr anzeigen
                                 </span>
@@ -132,7 +132,7 @@ function CarItem({ images, title, description, price, km, onSubmitForm }) {
                     </div>
                 </Grid>
             </Grid>
-
+            
             {/* Main enquiry dialog */}
             <Dialog open={open} onClose={handleClose} fullWidth maxWidth="sm" sx={{ padding: isMobile ? '10px' : 'auto' }}>
                 <DialogTitle>Jetzt anfragen</DialogTitle>
