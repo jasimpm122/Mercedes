@@ -1,114 +1,97 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
-import './App.css';
-import carImage from './car.JPG';
-import Header from './components/Header';
-import CarItem from './components/CarItem';
-import { cars } from './components/MockData';
-import Service from './components/BMWService';
-import About from './components/About'; 
-import Imprint from './components/Imprint'; 
-import Details from './components/Details'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Contact from './components/Contact'; // Import the Contact component
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/style.css';
+import './App.scss';
+
+import { Provider } from "react-redux"
+import { PersistGate } from "redux-persist/integration/react";
+import { persistStore } from "redux-persist";
+import store from "./redux/app/store";
+
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route
+} from "react-router-dom"
+
+import ScrollToTop from "./config/ScrollToTop";
+
+import Header from "./components/header";
+import Footer from './components/footer';
+
+import Home from './pages/home';
+
+import Login from './pages/auth/login';
+import Signup from './pages/auth/signup';
+
+import About from './pages/about/about';
+import Client from './pages/client/client';
+import Services from './pages/services/services';
+import Vehicles from './pages/vehicles/vehicles';
+import Contact from './pages/contact/contact';
+
+import CarDetail from "./pages/car-detail";
+import MyRentals from "./pages/my-rentals/my-rentals";
+import AuthGuard from "./guards/AuthGuard";
+import GuestGuard from "./guards/GuestGuard";
+import AdminGuard from "./guards/AdminGuard";
+
+import AdminLayout from "./admin/admin-layout";
+import Admin from "./admin/admin";
+import VehiclesManager from "./admin/vehicles-manager/vehicles-manager";
+import VehicleBrands from "./admin/vehicles-manager/vehicle-brands";
+import VehicleModels from "./admin/vehicles-manager/vehicle-models";
+import VehicleCars from "./admin/vehicles-manager/vehicle-cars";
+import UsersManager from "./admin/users-manager/users-manager";
+import LocationsManager from "./admin/locations-manager/locations-manager";
+import RentalsManager from "./admin/rentals-manager/rentals-manager";
+import ContactFormManager from "./admin/contact-form-manager/contact-form-manager";
+import Impresum from './components/Details';
 
 function App() {
-  const handleFormSubmit = (formData) => {
-    fetch('https://cardealers-latest-1.onrender.com/client/enquiry2', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(formData),
-    })
-    .then(response => response.json())
-    .then(data => {
-      console.log('Success:', data);
-    })
-    .catch(error => {
-      console.error('Error:', error);
-    });
-  };
-  
+
+    const persistor = persistStore(store);
+
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <div className="image-container">
-                  <img src={carImage} alt="Car" className="fix-image" />
-                  <div className="overlay-text">
-                    {/* <p>BMW M. KRAFT TRIFFT DYNAMIK.</p>
-                    <a>GEBOREN AUF DER RENNSTRECKE, AUF ALLEN STRASSEN ZU HAUSE.</a> */}
-                  </div>
-                </div>
+      <Provider store={store}>
+          <PersistGate persistor={persistor}>
+              <Router>
+                <ScrollToTop />
+                <Header />
+                <Routes>
+                    <Route path="/admin" element={<AdminGuard><AdminLayout /></AdminGuard>}>
+                        <Route path="" element={<Admin />} /> // this never renders
+                        <Route path="users" element={<UsersManager />} />
+                        <Route path="vehicles" element={<VehiclesManager />} >
+                            <Route path="brands" element={<VehicleBrands />} />
+                            <Route path="models" element={<VehicleModels />} />
+                            <Route path="cars" element={<VehicleCars />} />
+                        </Route>
+                        <Route path="locations" element={<LocationsManager />} />
+                        <Route path="rentals" element={<RentalsManager />} />
+                        <Route path="contact-form" element={<ContactFormManager />} />
+                    </Route>
 
-                {/* New Section for "BMW in your country" */}
-                <div 
-  className="country-section" 
-  style={{ 
-    textAlign: 'center', 
-    margin: '40px 0',
-    opacity: 0,
-    animation: 'slideIn 1s ease-in-out forwards',
-    animationDelay: '0.3s'
-  }}
->
-  <p style={{ fontSize: '1.2rem', color: '#333' }}>Mercedes in Ihrem Land</p>
-  <h2 style={{ fontSize: '3rem', margin: '10px 0', color: '#111', fontWeight: 'bold' }}>ALLE BENZ MODELLE</h2>
-  <p style={{ fontSize: '1rem', color: '#333' }}>
-    <span style={{ textDecoration: 'underline', cursor: 'pointer' }}>Finden Sie Ihren Benz</span>
-  </p>
-</div>
+                  <Route path="/" element={<Home />}/>
 
-{/* Introductory Text */}
-<div 
-  className="intro-text" 
-  style={{ 
-    textAlign: 'center', 
-    fontSize: '0.8rem', 
-    color: '#333', 
-    margin: '20px',
-    opacity: 0,
-    animation: 'slideIn 1s ease-in-out forwards',
-    animationDelay: '0.5s'
-  }}
->
-Mercedes-Benz – ein Symbol für Luxus und zeitlose Eleganz. Die aktuellen Mercedes-AMG Modelle setzen diese Tradition fort, indem sie die perfekte Balance zwischen Komfort und Performance bieten. Inspiriert von der Rennstrecke, erfüllen sie höchste Anforderungen an Dynamik und Agilität und machen jede Fahrt zu einem Erlebnis.
-</div>
+                  <Route path="/login" element={<GuestGuard><Login /></GuestGuard>} />
+                  <Route path="/sign-up" element={<GuestGuard><Signup /></GuestGuard>} />
 
-                <div className="car-items">
-                  {cars.map((car, index) => (
-                    <CarItem
-                      key={index}
-                      images={car.images}
-                      title={car.title}
-                      description={car.description}
-                      km={car.km}
-                      onSubmitForm={handleFormSubmit}
-                      price={car.price} 
-                    />
-                  ))}
-                </div>
-              </>
-            }
-          />
-          
-          <Route path="/about" element={<About />} />
-          <Route path="/imprint" element={<Imprint />} />
-          <Route path="/service" element={<Service />} /> 
-          <Route path="/details" element={<Details />} />
+                  <Route path="/about" element={<About />} />
+                  <Route path="/client" element={<Client />} />
+                  <Route path="/services" element={<Services />} />
+                  <Route path="/vehicles" element={<Vehicles />} />
+                  <Route path="/contact" element={<Contact />} />
+                  <Route path="/details" element={<Impresum />} />
+                  <Route path="/my-rentals" element={<AuthGuard><MyRentals /></AuthGuard>} />
 
-// Inside the Router component in your Routes section:
-<Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
+                  <Route path="/cars/:carBrand/:carModel/:carId" element={<CarDetail />} />
+                </Routes>
+                <Footer />
+              </Router>
+          </PersistGate>
+      </Provider>
   );
 }
 
