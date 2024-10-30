@@ -70,33 +70,52 @@ function CarItem({ images, title, description, price, km, onSubmitForm }) {
     const truncatedDescription = description.slice(0, 200);
 
     return (
-        <div style={{ margin: '10px auto', width: '100%', maxWidth: '1200px' }}>
-            <Grid container spacing={isMobile ? 2 : 6} direction={isTabletOrMobile ? 'column' : 'row'} alignItems="center">
-                <Grid item xs={12} sm={6}>
+        <div style={{ margin: '20px auto', width: '100%', maxWidth: '1200px', padding: isTabletOrMobile ? '10px' : '20px' }}>
+            <Grid container spacing={isMobile ? 2 : 4} direction={isTabletOrMobile ? 'column' : 'row'} alignItems="center">
+                <Grid item xs={12} sm={6} style={{ display: 'flex', justifyContent: 'center' }}>
                     {images && images.length > 0 ? (
                         <div className="image-slider" style={{
-                            maxWidth: isTabletOrMobile ? '100%' : '600px',
-                            margin: isTabletOrMobile ? '0 auto' : '0', 
-                            display: 'flex', 
+                            width: isTabletOrMobile ? '100%' : '500px',
+                            display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
                             position: 'relative'
                         }}>
-                            <button className="prev" onClick={goToPrevImage}>&lt;</button>
+                            <button className="prev" onClick={goToPrevImage} style={{
+                                position: 'absolute',
+                                left: '10px',
+                                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                                color: 'white',
+                                border: 'none',
+                                borderRadius: '50%',
+                                width: '30px',
+                                height: '30px',
+                                cursor: 'pointer'
+                            }}>&lt;</button>
                             <img 
                                 src={images[currentImageIndex]} 
                                 alt={title} 
                                 className="car-image" 
                                 style={{ 
-                                    width: '100%', 
-                                    maxWidth: isTabletOrMobile ? '100%' : '600px',  
-                                    height: isMobile ? '200px' : 'auto', 
-                                    minHeight: isTabletOrMobile ? 'auto' : '400px', 
-                                    objectFit: 'contain',  
-                                    borderRadius: '8px' 
+                                    width: '100%',
+                                    maxWidth: '500px',
+                                    height: isMobile ? '200px' : 'auto',
+                                    minHeight: '300px',
+                                    objectFit: 'cover',
+                                    borderRadius: '8px'
                                 }} 
                             />
-                            <button className="next" onClick={goToNextImage}>&gt;</button>
+                            <button className="next" onClick={goToNextImage} style={{
+                                position: 'absolute',
+                                right: '10px',
+                                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                                color: 'white',
+                                border: 'none',
+                                borderRadius: '50%',
+                                width: '30px',
+                                height: '30px',
+                                cursor: 'pointer'
+                            }}>&gt;</button>
                         </div>
                     ) : (
                         <p style={{ textAlign: 'center' }}>No images available.</p>
@@ -104,29 +123,29 @@ function CarItem({ images, title, description, price, km, onSubmitForm }) {
                 </Grid>
                 
                 <Grid item xs={12} sm={6}>
-                    <div className="car-description" style={{ padding: isTabletOrMobile ? '0 16px' : '0', textAlign: isMobile ? 'center' : 'left' }}>
-                        <h3 className='car-title' style={{ fontSize: '2vw', margin: '10px 0', color: '#111', fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}>
+                    <div className="car-description" style={{ padding: isTabletOrMobile ? '0 16px' : '0 24px', textAlign: isMobile ? 'center' : 'left' }}>
+                        <h3 className='car-title' style={{ fontSize: '1.5rem', margin: '10px 0', color: '#111', fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}>
                             {title}
                         </h3>
-                        <p className='car-description-text' style={{ fontSize: '1.2vw', margin: '10px 0', color: '#777', fontFamily: 'Arial, sans-serif' }}>
+                        <p className='car-description-text' style={{ fontSize: '1rem', margin: '10px 0', color: '#777', fontFamily: 'Arial, sans-serif', lineHeight: '1.6' }}>
                             {isTabletOrMobile || showFullDescription ? description : `${truncatedDescription}... `}
                             {!isTabletOrMobile && !showFullDescription && (
                                 <span 
                                     onClick={() => setShowFullDescription(true)} 
-                                    style={{ color: '#555', cursor: 'pointer' }}>
+                                    style={{ color: '#007BFF', cursor: 'pointer', fontWeight: 'bold' }}>
                                     Mehr anzeigen
                                 </span>
                             )}
                         </p>
-                        <p className='car-description-text' style={{ fontSize: '1vw', color: '#333', fontFamily: 'Arial, sans-serif' }}>
-                            {km}
+                        <p className='car-description-text' style={{ fontSize: '1rem', color: '#333', fontFamily: 'Arial, sans-serif', marginBottom: '5px' }}>
+                            Kilometerstand: {km}
                         </p>
-                        <p className='car-description-text' style={{ fontWeight: 'bold', fontSize: '1vw', color: '#333', fontFamily: 'Arial, sans-serif' }}>
-                            {price}
+                        <p className='car-description-text' style={{ fontWeight: 'bold', fontSize: '1.2rem', color: '#333', fontFamily: 'Arial, sans-serif', marginBottom: '20px' }}>
+                            Preis: {price}
                         </p>
-                        <Grid container justifyContent="center" spacing={2}>
-                            <Grid item xs={10} sm={6}>
-                                <Button sx={{ width: '100%', backgroundColor: 'black', color: 'white', fontSize: isMobile ? '12px' : '16px' }} variant="contained" onClick={handleClickOpen}>Jetzt anfragen</Button>
+                        <Grid container justifyContent={isTabletOrMobile ? 'center' : 'flex-start'} spacing={2}>
+                            <Grid item xs={10} sm={6} md={4}>
+                                <Button sx={{ width: '100%', backgroundColor: 'black', color: 'white', fontSize: isMobile ? '12px' : '16px', padding: '10px' }} variant="contained" onClick={handleClickOpen}>Jetzt anfragen</Button>
                             </Grid>
                         </Grid>
                     </div>
