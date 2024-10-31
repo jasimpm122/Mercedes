@@ -25,22 +25,6 @@ const Footer = () => {
               <Col>
                 <Row>
                   <Col>
-                    <h4 className="fs-4 text-white fw-700">Jetzt abonnieren</h4>
-                    <p className="fs-6 text-white m-0 mb-1">Es gibt viele Varianten der Passagen von Lorem Ipsum, Ipsum.</p>
-                    <div className="form-group">
-                      <Form.Control as="textarea" rows={1} placeholder="Geben Sie Ihre E-Mail-Adresse ein" />
-                      <Button variant="primary" className="primary-bg-color border-0 w-100 mt-1">Abonnieren</Button>
-                    </div>
-                  </Col>
-                  <Col>
-                    <h4 className="fs-4 text-white fw-700">Information</h4>
-                    <p className="fs-6 text-white m-0">Es gibt viele Varianten der Passagen von Lorem Ipsum, aber die meisten </p>
-                  </Col>
-                  <Col>
-                    <h4 className="fs-4 text-white fw-700">Nützliche Links</h4>
-                    <p className="fs-6 text-white m-0">Es gibt viele Varianten der Passagen von Lorem Ipsum, aber die meisten </p>
-                  </Col>
-                  <Col>
                     <h4 className="fs-4 text-white fw-700">Kontaktieren Sie uns</h4>
                     <p className="fs-6 text-white m-0">
                   <span>
@@ -55,7 +39,7 @@ const Footer = () => {
                       <br />
                       <span>
                     <GrMail className="header-line-2-icon" />&nbsp;
-                        <a href="mailto:fbatuhanr@gmail.com" target="_blank" className="text-white">kundendienst@mercedes-rkg.de</a>
+                        <a href="mailto:kundendienst@mercedes-krg.com" target="_blank" className="text-white">kundendienst@mercedes-krg.com</a>
                   </span>
                     </p>
                     <div className="social-icon">
