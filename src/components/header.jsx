@@ -1,3 +1,4 @@
+
 import React from 'react';
 import useAuthentication from "../hooks/useAuthentication";
 import {useNavigate, Link, NavLink, useLocation} from "react-router-dom";
@@ -50,7 +51,7 @@ const Header = () => {
                                     style={{ height: "40px", width: "auto" }} 
                                     className="me-2" 
                                 />
-                                <span className="fw-bold text-dark">BMW</span>
+                                <span className="fw-bold text-dark" style={{ fontSize: '1rem' }}>KLAUS SCHELLER GMBH</span>
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
