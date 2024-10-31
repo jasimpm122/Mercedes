@@ -45,12 +45,12 @@ const Header = () => {
                         <Container>
                             <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
                                 <img 
-                                    src={logo} 
+                                    src={'https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/explained-m/exlm-03-media-hd.png'} 
                                     alt="Logo" 
                                     style={{ height: "40px", width: "auto" }} 
                                     className="me-2" 
                                 />
-                                <span className="fw-bold text-dark">KRG</span>
+                                <span className="fw-bold text-dark">BMW</span>
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">

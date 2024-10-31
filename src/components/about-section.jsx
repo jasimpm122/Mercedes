@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import AboutImage from '../assets/images/wfe.png';
 import { Link } from 'react-router-dom';
+import member1 from '../assets/images/Art.jpg';
+import member2 from '../assets/images/Art1.jpeg';
+import member3 from '../assets/images/Art2.jpg';
 
 const AboutSection = () => {
   return (
@@ -20,9 +23,12 @@ const AboutSection = () => {
                 Über uns
               </h1>
               <p className="about-text fs-5 m-0">
-                Wir sind stolz darauf, Ihnen eine große Auswahl an hochwertigen gebrauchten Mercedes-Fahrzeugen anzubieten, die alle sorgfältig geprüft wurden, um höchste Qualitätsstandards zu gewährleisten. Unsere Mercedes-Modelle stehen für Eleganz, Leistung und Zuverlässigkeit, und wir sind überzeugt, dass Sie bei uns das perfekte Fahrzeug für Ihre Bedürfnisse finden werden. Ob sportliche Limousine, luxuriöser SUV oder stilvolles Cabriolet – unsere Fahrzeuge bieten Ihnen das unvergleichliche Fahrerlebnis, das Sie von Mercedes erwarten.
-                Unser Angebot richtet sich an Kunden weltweit, und dank unseres professionellen Lieferservices müssen Sie sich keine Gedanken über die Entfernung machen. Ganz egal, wo Sie sich befinden – wir liefern Ihnen Ihr Traumfahrzeug sicher und zuverlässig bis vor die Haustür. Mit unserem erstklassigen Service sorgen wir dafür, dass der Kauf eines gebrauchten Mercedes für Sie so einfach und angenehm wie möglich wird. Jeder unserer Mercedes ist nicht nur ein Fahrzeug, sondern ein Versprechen von Qualität und Fahrspaß.
-                Erleben Sie den Komfort und die Luxusklasse von Mercedes ohne Grenzen. Lassen Sie sich überzeugen und entdecken Sie, wie wir Ihre automobile Leidenschaft wahr werden lassen können.
+              Wir sind ein führendes Autohaus mit einer Leidenschaft für die Bereitstellung der besten Fahrzeuge und des besten Kundendienstes.
+                    Unsere Mission ist es, Kunden dabei zu helfen, das perfekte Auto zu finden, das ihren Bedürfnissen und ihrem Budget entspricht.
+                    Mit jahrelanger Erfahrung und einer großen Auswahl an Premiumfahrzeugen gewährleisten wir erstklassige Qualität bei Produkten und
+                    Dienstleistungen. Unser Expertenteam begleitet Sie durch jeden Schritt des Prozesses, von der Auswahl des richtigen Modells bis zum
+                    Abschluss des Kaufs. Zusätzlich versenden wir Autos weltweit und arbeiten mit mehreren Transportunternehmen zusammen, um eine sichere
+                    und effiziente Lieferung zu gewährleisten.
               </p>
             </div>
           </Col>
@@ -34,20 +40,20 @@ const AboutSection = () => {
         </h2>
         <Row className="text-center">
           {[{
-            name: "Marius Leutner",
+            name: "Olaf Hemmer",
             role: "Sales Manager",
             description: "MBA in Marketing, 10+ years in the automotive industry",
-            image: "https://media.licdn.com/dms/image/v2/D4E03AQFZ0h4UpJywdQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1668170929978?e=2147483647&v=beta&t=9XzJt_1OL7B0LhUJOiaCbiLBupwvNZcJkux1sfopMck"
+            image: member1
           }, {
-            name: "Marvin Appel",
+            name: "Michael Brill",
             role: "Senior Sales Executive",
             description: "Bachelor's in Business Administration, 8 years in sales",
-            image: "https://media.licdn.com/dms/image/v2/C4D22AQEFVyV8Lx1emQ/feedshare-shrink_800/feedshare-shrink_800/0/1625149806291?e=2147483647&v=beta&t=frWYr0rjHuNy-doAru0XtJAL70rNU9JABzTH2-hlSy4"
+            image: member2
           }, {
-            name: "Pablo Jemenez",
+            name: "Sebastian Mitusch",
             role: "Sales Consultant",
             description: "Diploma in Automotive Sales, 5 years in customer relations",
-            image: "https://media.licdn.com/dms/image/v2/C4E10AQGAFniR7xYOGg/image-shrink_800/image-shrink_800/0/1677574812229?e=2147483647&v=beta&t=qvK_0MruY75tH98oHEYAyjM7b_DGu1UjTR8uX5ET_So"
+            image: member3
           }].map((member, index) => (
             <Col xs={12} sm={6} md={4} key={index} className="mb-4">
               <Card className="h-100" style={{ border: 'none', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', borderRadius: '8px' }}>
@@ -65,7 +71,7 @@ const AboutSection = () => {
         {/* Hours and Contact */}
         <div className="text-center mt-4">
           <h5 className="fw-bold">Montag bis Samstag 8-18 Uhr</h5>
-          <p><a href="mailto:kundendienst@mercedes-krg.de" style={{ color: '#007BFF', textDecoration: 'underline' }}>kundendienst@mercedes-krg.de</a></p>
+          <p><a href="mailto:kundendienst@bmw-scheller.com" style={{ color: '#007BFF', textDecoration: 'underline' }}>kundendienst@bmw-scheller.com</a></p>
           <p><Link to="/details" style={{ color: '#007BFF', textDecoration: 'underline' }}>
           Impressum
         </Link></p>

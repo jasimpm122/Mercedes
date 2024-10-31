@@ -7,85 +7,91 @@ function Details() {
         <div style={{
             padding: isMobileOrTablet ? '20px' : '40px',
             maxWidth: '800px',
-            margin: '0 auto',
-            paddingTop: isMobileOrTablet ? '40px' : '60px', // Reduced top padding
+            margin: '0 auto', // Adjusted for space below navbar
             lineHeight: '1.6',
             fontFamily: 'Arial, sans-serif',
             color: '#333',
-            textAlign: 'left'
+            textAlign: isMobileOrTablet ? 'center' : 'left',
         }}>
             <h1 style={{
                 fontSize: isMobileOrTablet ? '24px' : '32px',
                 fontWeight: 'bold',
-                marginBottom: '10px',
-                color: '#333'
+                marginBottom: '5px',
+                color: '#333',
             }}>
                 IMPRESSUM.
             </h1>
             <p style={{
-                fontSize: isMobileOrTablet ? '14px' : '16px',
-                marginBottom: '30px',
-                color: '#666'
+                fontSize: isMobileOrTablet ? '12px' : '14px',
+                marginBottom: '40px',
+                color: '#666',
             }}>
                 ANGABEN ZUM BETREIBER DER WEBSITE.
             </p>
 
             <h2 style={{
-                fontSize: isMobileOrTablet ? '18px' : '22px',
+                fontSize: isMobileOrTablet ? '18px' : '20px',
                 fontWeight: 'bold',
                 color: '#333',
-                marginBottom: '15px'
+                marginBottom: '10px',
             }}>
-                KRG
+                KLAUS SCHELLER GMBH
             </h2>
-            <p style={{ marginBottom: '20px', fontSize: '16px', lineHeight: '1.8' }}>
-                Die Webseite www.mercedes-rkg.de fasst die Darstellung mehrerer Unternehmen zusammen, die jedes für sich wirtschaftlich eigenständig und rechtlich selbständig ihre Leistungen anbieten. Die zusammenfassende Darstellung bedeutet nicht, dass jedes Unternehmen diese Leistungen anbietet, sondern dass einzelne Unternehmen diese Leistungen ganz oder teilweise, auf jeden Fall aber unabhängig von den anderen Unternehmen anbieten.
+            <p style={{ marginBottom: '20px' }}>
+                Vertreten durch die Geschäftsführer: Andreas Scheller, Anna Scheller und Matthias Keeve-Scheller<br />
+                Handelsregister Amtsgericht Ludwigshafen am Rhein HRB 11234<br />
+                USt.-IdNr: DE149368823
             </p>
 
             <h3 style={{
-                fontSize: isMobileOrTablet ? '16px' : '18px',
+                fontSize: isMobileOrTablet ? '14px' : '16px',
                 fontWeight: 'bold',
                 color: '#333',
-                marginBottom: '10px'
+                marginBottom: '5px',
             }}>
-                Versicherungsvermittlerregister
+                Kontakt
             </h3>
-            <p style={{ marginBottom: '20px', fontSize: '16px' }}>
-                <a href="https://www.vermittlerregister.info" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none' }}>www.vermittlerregister.info</a><br />
-                Register-Nr. D-JRJ4-OPY9P-11<br />
-                Erlaubnis nach § 34d ABS. 1 GewO, erteilt durch die IHK Bonn/Rhein-Sieg, Bonner Talweg 17, 53113 Bonn<br />
+            <p style={{ marginBottom: '20px' }}>
+                Triftweg 10<br />
+                67098 Bad Dürkheim<br />
+                Tel.: +49 6322 9425-0<br />
                 Fax: +49 6322 9425-15<br />
-                E-Mail: <a href="mailto:kundendienst@mercedes-krg.com" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@mercedes-krg.com</a>
+                E-Mail: <a href="mailto:kundendienst@bmw-scheller.com" style={{ color: '#007BFF', textDecoration: 'none' }}>kundendienst@bmw-scheller.com</a>
             </p>
 
             <h3 style={{
-                fontSize: isMobileOrTablet ? '16px' : '18px',
+                fontSize: isMobileOrTablet ? '14px' : '16px',
                 fontWeight: 'bold',
                 color: '#333',
-                marginBottom: '10px'
+                marginBottom: '5px',
             }}>
                 Berufsbezeichnung und berufsrechtliche Regelungen
             </h3>
-            <p style={{ marginBottom: '20px', fontSize: '16px' }}>
-                Berufsrechtliche Regelungen: Gesetz zur Ordnung des Handwerks (Handwerksordnung). Die berufsrechtlichen Regelungen können über die vom Bundesministerium der Justiz und von der juris GmbH betriebene Homepage <a href="https://www.gesetze-im-internet.de" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none' }}>www.gesetze-im-internet.de</a> eingesehen und abgerufen werden.
+            <p style={{ marginBottom: '10px' }}>
+                Berufsrechtliche Regelungen: Gesetz zur Ordnung des Handwerks (Handwerksordnung)
             </p>
-            <p style={{ marginBottom: '20px', fontSize: '16px' }}>
-                Die Angaben in diesem Impressum gelten auch für die folgenden Online-Auftritte der KRG:
+            <p style={{ marginBottom: '20px' }}>
+                Die berufsrechtlichen Regelungen können über die vom Bundesministerium der Justiz und von der juris GmbH betriebene Homepage 
+                <a href="https://www.gesetze-im-internet.de" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none', marginLeft: '5px' }}>www.gesetze-im-internet.de</a> 
+                eingesehen und abgerufen werden.
             </p>
-            <ul style={{ listStyleType: 'none', paddingLeft: '0', marginBottom: '20px' }}>
-                <li style={{ marginBottom: '5px' }}><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none' }}>Facebook</a></li>
+            <p style={{ marginBottom: '20px' }}>
+                Die Angaben in diesem Impressum gelten auch für die folgenden Online-Auftritte der Klaus Scheller GmbH:
+            </p>
+            <ul style={{ listStyleType: 'none', paddingLeft: '0', marginBottom: '20px', textAlign: isMobileOrTablet ? 'center' : 'left' }}>
+                <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none', marginRight: '15px' }}>Facebook</a></li>
                 <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none' }}>Instagram</a></li>
             </ul>
 
             <h3 style={{
-                fontSize: isMobileOrTablet ? '16px' : '18px',
+                fontSize: isMobileOrTablet ? '14px' : '16px',
                 fontWeight: 'bold',
                 color: '#333',
-                marginBottom: '10px'
+                marginBottom: '5px',
             }}>
                 Angaben zur Betriebshaftpflichtversicherung
             </h3>
-            <p style={{ marginBottom: '20px', fontSize: '16px' }}>
+            <p style={{ marginBottom: '20px' }}>
                 Name und Sitz des Versicherers:<br />
                 Zurich Insurance plc<br />
                 53287 Bonn<br />
@@ -93,17 +99,18 @@ function Details() {
             </p>
 
             <h3 style={{
-                fontSize: isMobileOrTablet ? '16px' : '18px',
+                fontSize: isMobileOrTablet ? '14px' : '16px',
                 fontWeight: 'bold',
                 color: '#333',
-                marginBottom: '10px'
+                marginBottom: '5px',
             }}>
                 Streitschlichtung
             </h3>
-            <p style={{ marginBottom: '20px', fontSize: '16px' }}>
-                Die EU-Kommission hat eine Internetplattform zur Online-Beilegung von Streitigkeiten (sog. „OS-Plattform“) geschaffen. Sie können die OS-Plattform unter folgendem Link erreichen: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none' }}>https://ec.europa.eu/consumers/odr</a>.
+            <p style={{ marginBottom: '10px' }}>
+                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
+                <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF', textDecoration: 'none', marginLeft: '5px' }}>https://ec.europa.eu/consumers/odr</a>.
             </p>
-            <p style={{ fontSize: '16px' }}>
+            <p>
                 Unsere E-Mail-Adresse finden Sie oben im Impressum.<br />
                 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
             </p>

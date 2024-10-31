@@ -151,7 +151,7 @@ const CarDetail = () => {
                     model: `${carBrand} ${carModel}`
                 };
 
-                axios.post('https://cardealers-latest-1.onrender.com/client/enquiry2', payload)
+                axios.post('https://cardealers-latest-1.onrender.com/client/enquiry', payload)
                     .then(() => {
                         Swal.fire('Vielen Dank!', 'Ihre Anfrage wurde erfolgreich gesendet.', 'success');
                     })
