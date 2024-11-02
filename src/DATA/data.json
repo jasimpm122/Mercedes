@@ -5,13 +5,7 @@
             "model": {
                 "SV08-1C Minibagger": {
                     "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587611/66fc855895585409474899-10100020_1.jpg.webp",
-                    "power": "374 PS",
-                    "engineSize": "2998 ccm",
-                    "gearbox": "Automatik",
-                    "bodyType": "Coupé",
-                    "fuelType": "Benzin",
                     "currentMarketPrice": "Ab 44.490 €",
-                    "km": "Nicht über 100.000 KM",
                     "RentPrice":"ab 113,05 € / Arbeitstag(inkl. MwSt.)",
                     "Noise level":"92",
                     "Tank capacity":"9.7",
@@ -29,7 +23,349 @@
                     "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587612/66fc855895e9d559055689-10100020_2.jpg.webp"]
                 }
             }
+        },
+        {
+            "brand": "Yanmar",
+            "model": {
+                "ViO10 Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/588027/66fc856ac26a3945532066-10100000_1.jpeg.webp",
+                    "currentMarketPrice": "Auf Anfrage",
+                    "RentPrice": "ab 120,00 € / Arbeitstag (inkl. MwSt.)",
+                    "Noise level": "93 dB",
+                    "Tank capacity": "10.5",
+                    "Width": "830",
+                    "Digging depth ": "1950",
+                    "Range": "3530",
+                    "Length ": "3040",
+                    "Transport width of": "830",
+                    "Height ": "1500",
+                    "Weight ": "1220",
+                    "Dumping height": "2370",
+                    "viewImages": [
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/588027/66fc856ac26a3945532066-10100000_1.jpeg.webp",
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/588028/66fc856ac2dc5204541619-10100000_2.jpeg.webp"
+                    ]
+                }
+            }
+        },
+        {
+            "brand": "Yanmar",
+            "model": {
+                "ViO25 Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586506/66fc85248ac7d014875887-10110089_1.jpeg.webp",
+                    "currentMarketPrice": "Auf Anfrage",
+                    "RentPrice": "ab 150,00 € / Arbeitstag (inkl. MwSt.)",
+                    "Noise level": "Not specified",
+                    "Tank capacity": "29",
+                    "Width": "1210",
+                    "Digging depth ": "1950",
+                    "Range": "1524",
+                    "Length ": "4100",
+                    "Transport width of": "1210",
+                    "Height ": "7899",
+                    "Weight ": "584",
+                    "Dumping height": "789",
+                    "viewImages": [
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586502/66fc852488cf0163412273-10110233_2.jpeg.webp",
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586508/66fc85248bd1f237688061-10110089_3.jpeg.webp"
+                    ]
+                }
+            }
+        },
+        {
+            "brand": "Yanmar",
+            "model": {
+                "SV26 Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586501/66fc8524884dc044290614-10110233_1.jpeg.webp",
+                    "currentMarketPrice": "Auf Anfrage",
+                    "RentPrice": "ab 170,00 € / Arbeitstag (inkl. MwSt.)",
+                    "Noise level": "Not specified",
+                    "Tank capacity": "Not specified",
+                    "Width": "1500",
+                    "Digging depth ": "2750",
+                    "Range": "4580",
+                    "Length ": "4275",
+                    "Transport width of": "1500",
+                    "Height ": "2435",
+                    "Weight ": "2675",
+                    "Dumping height": "Not specified",
+                    "viewImages": [
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586506/66fc85248ac7d014875887-10110089_1.jpeg.webp"
+                    ]
+                }
+            }
+        },
+        {
+            "brand": "Yanmar",
+            "model": {
+                "SV16 Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/588053/66fc856ad0b86117601106-10110287_1.jpeg.webp",
+                    "currentMarketPrice": "Auf Anfrage",
+                    "RentPrice": "ab 140,00 € / Arbeitstag (inkl. MwSt.)",
+                    "Noise level": "85 dB",
+                    "Tank capacity": "20",
+                    "Width": "980",
+                    "Digging depth ": "2200",
+                    "Range": "4000",
+                    "Length ": "3800",
+                    "Transport width of": "980",
+                    "Height ": "2350",
+                    "Weight ": "1780",
+                    "Dumping height": "2500",
+                    "viewImages": [
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/588053/66fc856ad0b86117601106-10110287_1.jpeg.webp"                    ]
+                }
+            }
+        },
+
+        {
+            "brand": "Yanmar",
+            "model": {
+                "SV18 Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586499/66fc852487557103480887-10110283_1.jpeg.webp",
+                    "currentMarketPrice": "Ab 28,500 €",
+                    "RentPrice": "ab 130,00 € / Arbeitstag (inkl. MwSt.)",
+                    "Noise level": "79 dB",
+                    "Tank capacity": "20",
+                    "Width": "980",
+                    "Digging depth ": "2580",
+                    "Range": "3950",
+                    "Length ": "3660",
+                    "Transport width of": "980",
+                    "Height ": "2280",
+                    "Weight ": "1975",
+                    "Dumping height": "2700",
+                    "viewImages": [
+                       "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586499/66fc852487557103480887-10110283_1.jpeg.webp"                 ]
+                }
+            }
+        },
+        {
+            "brand": "Yanmar",
+            "model": {
+                "SV08-1C Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587611/66fc855895585409474899-10100020_1.jpg.webp",
+                    "currentMarketPrice": "Ab 44,490 €",
+                    "RentPrice": "ab 113,05 € / Arbeitstag(inkl. MwSt.)",
+                    "Noise level": "92",
+                    "Tank capacity": "9.7",
+                    "Width": "680",
+                    "Digging depth ": "1,570",
+                    "Range": "2730",
+                    "Length ": "2,600",
+                    "Transport width of": "680",
+                    "Height ": "2200",
+                    "Weight ": "1035",
+                    "Dumping height": "1940",
+                    "viewImages": [
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587611/66fc855895585409474899-10100020_1.jpg.webp",
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587612/66fc855895e9d559055689-10100020_2.jpg.webp"
+                    ]
+                }
+            }
+        },
+
+        {
+            "brand": "Yanmar",
+            "model": {
+                "ViO33-6 Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586786/66fc85350cfa6179022554-10110341_1.jpg.webp",
+                    "currentMarketPrice": "Ab 50,000 €",
+                    "RentPrice": "ab 180,00 € / Arbeitstag (inkl. MwSt.)",
+                    "Noise level": "85 dB",
+                    "Tank capacity": "41",
+                    "Width": "1550",
+                    "Digging depth ": "3190",
+                    "Range": "5110",
+                    "Length ": "4510",
+                    "Transport width of": "1550",
+                    "Height ": "2460",
+                    "Weight ": "3275",
+                    "Dumping height": "3300",
+                    "viewImages": [
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586786/66fc85350cfa6179022554-10110341_1.jpg.webp",
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586502/yanmar_vio33_6_image2.jpghttps://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586787/66fc85350dbeb240124174-10110341_2.jpg.webp"
+                    ]
+                }
+            }
+        },
+        {
+            "brand": "Yanmar",
+            "model": {
+                "SV22 Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586432/66fc85244b6e1694676475-10110285_1.jpeg.webp",
+                    "currentMarketPrice": "Ab 35,000 €",
+                    "RentPrice": "ab 160,00 € / Arbeitstag (inkl. MwSt.)",
+                    "Noise level": "83 dB",
+                    "Tank capacity": "37",
+                    "Width": "1380",
+                    "Digging depth ": "2480",
+                    "Range": "4800",
+                    "Length ": "3775",
+                    "Transport width of": "1380",
+                    "Height ": "2360",
+                    "Weight ": "2160",
+                    "Dumping height": "3000",
+                    "viewImages": [
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586432/66fc85244b6e1694676475-10110285_1.jpeg.webp",
+                    "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586433/66fc85244ca8b828839183-10110285_2.jpeg.webp",
+                "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586433/66fc85244ca8b828839183-10110285_2.jpeg.webp"                    ]
+                }
+            }
         }
+        ,
+        {
+            "brand": "Yanmar",
+            "model": {
+                "SV18 Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586499/66fc852487557103480887-10110283_1.jpeg.webp",
+                    "currentMarketPrice": "Ab 28,500 €",
+                    "RentPrice": "ab 130,00 € / Arbeitstag (inkl. MwSt.)",
+                    "Noise level": "79 dB",
+                    "Tank capacity": "20",
+                    "Width": "980",
+                    "Digging depth": "2580",
+                    "Range": "3950",
+                    "Length": "3660",
+                    "Transport width of": "980",
+                    "Height": "2280",
+                    "Weight": "1975",
+                    "Dumping height": "2700",
+                    "viewImages": [
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586499/66fc852487557103480887-10110283_1.jpeg.webp"
+                    ]
+                }
+            }
+        }
+,
+{
+    "brand": "Kubota",
+    "model": {
+        "U25 Minibagger": {
+            "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/588083/66fc856ae0efa129287598-10110264_1.jpeg.webp",
+            "currentMarketPrice": "Ab 30,000 €",
+            "RentPrice": "ab 150,00 € / Arbeitstag (inkl. MwSt.)",
+            "Noise level": "78 dB",
+            "Tank capacity": "30",
+            "Width": "1500",
+            "Digging depth": "2820",
+            "Range": "4680",
+            "Length": "4170",
+            "Transport width of": "1500",
+            "Height": "2420",
+            "Weight": "2600",
+            "Dumping height": "3100",
+            "viewImages": [
+"https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/588083/66fc856ae0efa129287598-10110264_1.jpeg.webp"
+            ]
+        }
+    }
+},
+{
+    "brand": "Kubota",
+    "model": {
+        "U36 Minibagger": {
+            "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586398/66fc8524279e4311041473-10110290_1.jpg.webp",
+            "currentMarketPrice": "Ab 40,000 €",
+            "RentPrice": "ab 180,00 € / Arbeitstag (inkl. MwSt.)",
+            "Noise level": "76 dB",
+            "Tank capacity": "35",
+            "Width": "1700",
+            "Digging depth": "3410",
+            "Range": "5600",
+            "Length": "4900",
+            "Transport width of": "1700",
+            "Height": "2480",
+            "Weight": "3750",
+            "Dumping height": "3300",
+            "viewImages": [
+"https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586398/66fc8524279e4311041473-10110290_1.jpg.webp"
+            ]
+        }
+    }
+}
+,
+{
+    "brand": "Kubota",
+    "model": {
+        "U36 Minibagger": {
+            "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_large/eb1b6d1a4af62b80fbb8943570f4c2fd/586794/66fc853512004118899711-10110262_1.jpeg.webp",
+            "currentMarketPrice": "Ab 40,000 €",
+            "RentPrice": "ab 180,00 € / Arbeitstag (inkl. MwSt.)",
+            "Noise level": "76 dB",
+            "Tank capacity": "35",
+            "Width": "1700",
+            "Digging depth": "3410",
+            "Range": "5600",
+            "Length": "4900",
+            "Transport width of": "1700",
+            "Height": "2480",
+            "Weight": "3750",
+            "Dumping height": "3300",
+            "viewImages": [
+                "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_large/eb1b6d1a4af62b80fbb8943570f4c2fd/586794/66fc853512004118899711-10110262_1.jpeg.webp"
+            ]
+        }
+    }
+},
+{
+    "brand": "Kubota",
+    "model": {
+        "KX019-4 Minibagger": {
+            "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/588563/66fc857da6768228429528-10110275_1.jpg.webp",
+            "currentMarketPrice": "Ab 28,000 €",
+            "RentPrice": "ab 140,00 € / Arbeitstag (inkl. MwSt.)",
+            "Noise level": "77 dB",
+            "Tank capacity": "21",
+            "Width": "990",
+            "Digging depth": "2580",
+            "Range": "4000",
+            "Length": "3860",
+            "Transport width of": "990",
+            "Height": "2330",
+            "Weight": "1500",
+            "Dumping height": "3000",
+            "viewImages": [
+                "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/588563/66fc857da6768228429528-10110275_1.jpg.webp"
+            ]
+        }
+    }
+},
+
+{
+    "brand": "Kubota",
+    "model": {
+        "KX016 Minibagger": {
+            "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586794/66fc853512004118899711-10110262_1.jpeg.webp",
+            "currentMarketPrice": "Ab 27,000 €",
+            "RentPrice": "ab 125,00 € / Arbeitstag (inkl. MwSt.)",
+            "Noise level": "77 dB",
+            "Tank capacity": "19",
+            "Width": "990",
+            "Digging depth": "2250",
+            "Range": "3730",
+            "Length": "3860",
+            "Transport width of": "1240",
+            "Height": "2350",
+            "Weight": "1600",
+            "Dumping height": "2400",
+            "viewImages": [
+                "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586794/66fc853512004118899711-10110262_1.jpeg.webp"
+            ]
+        }
+    }
+}
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
     ],
     "locations": [
         "Amsterdam, Niederlande",
