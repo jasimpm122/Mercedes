@@ -13,7 +13,8 @@ const Home = () => {
     return (
         <div id="homepage">
             <Slider/>
-            {/* <CountrySection /> */}
+
+            <CarSearch />
             <CarOffers/>
             <FeaturesSection/>
             {/* <CustomerReview/>
