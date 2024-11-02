@@ -1,10 +1,10 @@
 {
     "vehicles": [
         {
-            "brand": "BMW",
+            "brand": "Yanmar",
             "model": {
-                "2er Coupé M": {
-                    "imageUrl": "https://prod.pictures.autoscout24.net/listing-images/23923d45-397b-4731-b775-d663fcbba598_c847a772-7928-41e9-9ca8-64918ed585dd.jpg/1280x960.webp",
+                "SV08-1C Minibagger": {
+                    "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587611/66fc855895585409474899-10100020_1.jpg.webp",
                     "power": "374 PS",
                     "engineSize": "2998 ccm",
                     "gearbox": "Automatik",
@@ -12,132 +12,21 @@
                     "fuelType": "Benzin",
                     "currentMarketPrice": "Ab 44.490 €",
                     "km": "Nicht über 100.000 KM",
+                    "RentPrice":"ab 113,05 € / Arbeitstag(inkl. MwSt.)",
+                    "Noise level":"92",
+                    "Tank capacity":"9.7",
+                    "Width":"680",
+                    "Digging depth ":"1,570",
+                    "Range":"2730",
+                    "Length ":"2,600",
+                    "Transport width of":"680",
+                    "Height ":"2200",
+                    "Weight ":"1035",
+                    "Dumping height":"1940",
+
                     "viewImages": [
-                        "https://prod.pictures.autoscout24.net/listing-images/23923d45-397b-4731-b775-d663fcbba598_c847a772-7928-41e9-9ca8-64918ed585dd.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/23923d45-397b-4731-b775-d663fcbba598_58beec8b-26e9-4d7e-9b9f-ac099f26d26b.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/23923d45-397b-4731-b775-d663fcbba598_c3bab599-8981-4f6b-8ed8-78fceea02ce1.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/23923d45-397b-4731-b775-d663fcbba598_8e8c5887-fc52-4406-a50f-55005bffd214.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/23923d45-397b-4731-b775-d663fcbba598_4c82d001-b75f-4b47-a124-b19083eefead.jpg/1280x960.webp"
-                    ]
-                },
-                "3er Limousine M": {
-                    "imageUrl": "https://prod.pictures.autoscout24.net/listing-images/083d64b5-73af-481d-be0a-52958f254247_4f0dc69c-79f1-4eb8-bdcf-b25f64a01595.jpg/1280x960.webp",
-                    "power": "510 PS",
-                    "engineSize": "2993 ccm",
-                    "gearbox": "Automatik",
-                    "bodyType": "Limousine",
-                    "fuelType": "Benzin",
-                    "currentMarketPrice": "Ab 41.980 €",
-                    "km": "Nicht über 100.000 KM",
-                    "viewImages": [
-                        "https://prod.pictures.autoscout24.net/listing-images/083d64b5-73af-481d-be0a-52958f254247_4f0dc69c-79f1-4eb8-bdcf-b25f64a01595.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/083d64b5-73af-481d-be0a-52958f254247_915a7753-3269-4d21-b076-42229030e550.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/083d64b5-73af-481d-be0a-52958f254247_43449a66-d3b5-448a-9053-8ba123ab5ef6.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/083d64b5-73af-481d-be0a-52958f254247_857e4233-f95b-4a40-9b4b-5b88e8ffefe3.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/083d64b5-73af-481d-be0a-52958f254247_c7f27f5d-a0fa-4cfd-aa80-dcdc79247052.jpg/1280x960.webp"
-                    ]
-                },
-                "iX M60": {
-                    "imageUrl": "https://prod.pictures.autoscout24.net/listing-images/f4ee3cdb-0658-4902-92d9-9f065382f9ac_be923831-0910-435b-aea3-9879ac097354.jpg/480x360.webp",
-                    "power": "619 PS",
-                    "engineSize": "Elektrisch",
-                    "gearbox": "Automatik",
-                    "bodyType": "SUV",
-                    "fuelType": "Elektrisch",
-                    "currentMarketPrice": "Ab 76.300 €",
-                    "km": "Nicht über 100.000 KM",
-                    "viewImages": [
-                        "https://prod.pictures.autoscout24.net/listing-images/f4ee3cdb-0658-4902-92d9-9f065382f9ac_be923831-0910-435b-aea3-9879ac097354.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/f4ee3cdb-0658-4902-92d9-9f065382f9ac_8d43d098-afde-4dc5-87cd-c7f8a7f64037.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/f4ee3cdb-0658-4902-92d9-9f065382f9ac_fa04a2d2-c4dc-4b94-992b-c0323b7b329e.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/f4ee3cdb-0658-4902-92d9-9f065382f9ac_078a2bb0-0509-442d-a23e-228b9f9a6091.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/f4ee3cdb-0658-4902-92d9-9f065382f9ac_3eaacd40-9620-483a-bdbb-4346e4bb7c29.jpg/480x360.webp"
-                    ]
-                },
-                "4er Cabrio M": {
-                    "imageUrl": "https://prod.pictures.autoscout24.net/listing-images/22f41eb5-03d8-4b1c-b159-0b492176241e_088deadd-b8d9-4185-809a-9a97dbcb601d.jpg/1280x960.webp",
-                    "power": "374 PS",
-                    "engineSize": "2998 ccm",
-                    "gearbox": "Automatik",
-                    "bodyType": "Cabriolet",
-                    "fuelType": "Benzin",
-                    "currentMarketPrice": "Ab 38.910 €",
-                    "km": "Nicht über 100.000 KM",
-                    "viewImages": [
-                        "https://prod.pictures.autoscout24.net/listing-images/22f41eb5-03d8-4b1c-b159-0b492176241e_088deadd-b8d9-4185-809a-9a97dbcb601d.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/22f41eb5-03d8-4b1c-b159-0b492176241e_4a86687f-3139-411b-9dc0-7c61e564fd9d.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/22f41eb5-03d8-4b1c-b159-0b492176241e_6cf255d4-db7c-4ff0-8397-eb0dbedaeb06.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/22f41eb5-03d8-4b1c-b159-0b492176241e_e21fcb37-a26b-4e83-9060-3351545be151.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/22f41eb5-03d8-4b1c-b159-0b492176241e_90aecf2c-1e24-49a5-ac12-574b2e777df9.jpg/1280x960.webp"
-                    ]
-                },
-                "4er Coupé M": {
-                    "imageUrl": "https://prod.pictures.autoscout24.net/listing-images/2611a9cc-4a8e-4f6e-9035-40d0b08d1454_abd0073a-dd66-43a5-855f-ce05d76345e1.jpg/480x360.webp",
-                    "power": "510 PS",
-                    "engineSize": "2993 ccm",
-                    "gearbox": "Automatik",
-                    "bodyType": "Coupé",
-                    "fuelType": "Benzin",
-                    "currentMarketPrice": "Ab 40.000 €",
-                    "km": "Nicht über 100.000 KM",
-                    "viewImages": [
-                        "https://prod.pictures.autoscout24.net/listing-images/2611a9cc-4a8e-4f6e-9035-40d0b08d1454_abd0073a-dd66-43a5-855f-ce05d76345e1.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/2611a9cc-4a8e-4f6e-9035-40d0b08d1454_afe64a31-8475-43da-894c-fc3b5bc9c331.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/2611a9cc-4a8e-4f6e-9035-40d0b08d1454_f1d4d0ec-3a1a-4cdb-9630-c501e8b44753.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/2611a9cc-4a8e-4f6e-9035-40d0b08d1454_b675ac3c-a374-436e-a43b-d9403adbf316.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/2611a9cc-4a8e-4f6e-9035-40d0b08d1454_5a22a355-0388-4d7c-9619-201c6d2d442f.jpg/480x360.webp"
-                    ]
-                },
-                "M5 Limousine": {
-                    "imageUrl": "https://prod.pictures.autoscout24.net/listing-images/8e147697-b5b4-4b51-8468-cb770d3e576c_629ac0d8-1794-45a6-a23d-64cd745c737f.jpg/1280x960.webp",
-                    "power": "625 PS",
-                    "engineSize": "4395 ccm",
-                    "gearbox": "Automatik",
-                    "bodyType": "Limousine",
-                    "fuelType": "Benzin",
-                    "currentMarketPrice": "Ab 68.440 €",
-                    "km": "Nicht über 100.000 KM",
-                    "viewImages": [
-                        "https://prod.pictures.autoscout24.net/listing-images/8e147697-b5b4-4b51-8468-cb770d3e576c_629ac0d8-1794-45a6-a23d-64cd745c737f.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/8e147697-b5b4-4b51-8468-cb770d3e576c_199e88f7-75c9-4aaf-a412-4f0cb77b8203.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/8e147697-b5b4-4b51-8468-cb770d3e576c_1cbce982-0832-41ab-a05b-751487d3a5cd.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/8e147697-b5b4-4b51-8468-cb770d3e576c_a98f1563-d097-42f8-b1c9-d7742f5499f5.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/8e147697-b5b4-4b51-8468-cb770d3e576c_c13265a9-c763-4602-b6d3-2b7dc5308561.jpg/1280x960.webp"
-                    ]
-                },
-                "8er Coupé M": {
-                    "imageUrl": "https://prod.pictures.autoscout24.net/listing-images/9b2cd90e-7b0e-45b4-9f16-0a60be4e9d2a_9c5c79f2-a330-4632-9d3f-14254178f3e9.jpg/480x360.webp",
-                    "power": "530 PS",
-                    "engineSize": "4395 ccm",
-                    "gearbox": "Automatik",
-                    "bodyType": "Coupé",
-                    "fuelType": "Benzin",
-                    "currentMarketPrice": "Ab 64.950 €",
-                    "km": "Nicht über 100.000 KM",
-                    "viewImages": [
-                        "https://prod.pictures.autoscout24.net/listing-images/9b2cd90e-7b0e-45b4-9f16-0a60be4e9d2a_9c5c79f2-a330-4632-9d3f-14254178f3e9.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/9b2cd90e-7b0e-45b4-9f16-0a60be4e9d2a_f999968b-f066-4eff-a9c2-a735755f0eb1.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/9b2cd90e-7b0e-45b4-9f16-0a60be4e9d2a_c200f752-da87-4631-8836-c3314f4604ca.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/9b2cd90e-7b0e-45b4-9f16-0a60be4e9d2a_d172c89a-c08f-430f-a875-5ff2e1db971b.jpg/480x360.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/9b2cd90e-7b0e-45b4-9f16-0a60be4e9d2a_48688456-80f8-4e9b-9947-47603f8a8e51.jpg/480x360.webp"
-                    ]
-                },
-                "8er Cabriolet M": {
-                    "imageUrl": "https://prod.pictures.autoscout24.net/listing-images/593c8072-ff77-4ba8-9963-581d0e0b9166_405ab646-ac9d-437e-aac8-d006482dc633.jpg/1280x960.webp",
-                    "power": "530 PS",
-                    "engineSize": "4395 ccm",
-                    "gearbox": "Automatik",
-                    "bodyType": "Cabriolet",
-                    "fuelType": "Benzin",
-                    "currentMarketPrice": "Ab 59.900 €",
-                    "km": "Nicht über 100.000 KM",
-                    "viewImages": [
-                        "https://prod.pictures.autoscout24.net/listing-images/593c8072-ff77-4ba8-9963-581d0e0b9166_405ab646-ac9d-437e-aac8-d006482dc633.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/593c8072-ff77-4ba8-9963-581d0e0b9166_0f3e4e3d-a1ea-48ae-ae71-c75c664a72c0.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/593c8072-ff77-4ba8-9963-581d0e0b9166_459a7abf-0837-4415-a066-72389843830e.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/593c8072-ff77-4ba8-9963-581d0e0b9166_86104204-cb57-48d5-92f5-05257c000abe.jpg/1280x960.webp",
-                        "https://prod.pictures.autoscout24.net/listing-images/593c8072-ff77-4ba8-9963-581d0e0b9166_3bec00e0-3aae-46e1-a753-f103e92bca41.jpg/1280x960.webp"
-                    ]
+                        "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587611/66fc855895585409474899-10100020_1.jpg.webp",
+                    "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587612/66fc855895e9d559055689-10100020_2.jpg.webp"]
                 }
             }
         }

@@ -25,7 +25,7 @@ const CarOffers = () => {
 
             Object.entries(vehicle.model).forEach(([modelName, modelDetails], modelIndex) => {
                 const modelId = `model_${index}_${modelIndex}`;
-                modelData[modelId] = { brandId, name: modelName, price: modelDetails.currentMarketPrice };
+                modelData[modelId] = { brandId, name: modelName, buyPrice: modelDetails.currentMarketPrice, price: modelDetails.RentPrice };
 
                 carData[modelId] = {
                     brandId,
@@ -47,7 +47,7 @@ const CarOffers = () => {
             <Container className="py-4">
                 <Row className="mb-5">
                     <Col>
-                        <h1 className="fs-1 text-center text-uppercase">UNSERE BESTEN ANGEBOTE</h1>
+                        <h1 className="fs-1 text-center text-uppercase">HKL BAUMASCHINEN: Mieten, Kaufen, Service</h1>
                     </Col>
                 </Row>
                 <Row>
@@ -59,6 +59,7 @@ const CarOffers = () => {
                                 .map(([key, value]) => {
                                     let brand = brands[value.brandId];
                                     let model = models[value.modelId] ? models[value.modelId].name : "";
+                                    let buyPrice = models[value.modelId] ? models[value.modelId].buyPrice : "";
                                     let price = models[value.modelId] ? models[value.modelId].price : "Price Unavailable";
                                     return (
                                         <Col xs={12} sm={6} md={4} className="py-2" key={`offer_${key}`}>
@@ -99,12 +100,20 @@ const CarOffers = () => {
                                                         {brand} {model}
                                                     </h3>
                                                     <p style={{
+    fontSize: '1rem',
+    fontWeight: '600',
+    color: '#555',
+    marginBottom: '1rem',
+}}>
+<span style={{ fontWeight: 'bold' }}>Kaufen:</span> {buyPrice}
+</p>
+                                                    <p style={{
                                                         fontSize: '1rem',
                                                         fontWeight: '600',
                                                         color: '#555',
                                                         marginBottom: '1rem',
                                                     }}>
-                                                        {price}
+                                             <span style={{ fontWeight: 'bold' }}>Mieten:</span> {price}
                                                     </p>
                                                 </div>
                                                 <div className="d-grid w-100">
@@ -121,7 +130,7 @@ const CarOffers = () => {
                                                                 fontWeight: 'bold',
                                                             }}
                                                         >
-                                                            View
+                                                            Kaufen/Mieten
                                                         </Button>
                                                     </Link>
                                                 </div>

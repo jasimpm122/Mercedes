@@ -48,13 +48,18 @@ const CarDetail = () => {
                     modelId,
                     images: modelDetails.viewImages || [],
                     carCount: 1,
-                    power: modelDetails.power,
-                    engineSize: modelDetails.engineSize,
-                    gearbox: modelDetails.gearbox,
-                    bodyType: modelDetails.bodyType,
-                    fuelType: modelDetails.fuelType,
-                    km: modelDetails.km || "Nicht verfügbar",
-                    price: modelDetails.currentMarketPrice || "Preis nicht verfügbar"
+                    noiseLevel: modelDetails['Noise level'],
+                    tankCapacity: modelDetails['Tank capacity'],
+                    width: modelDetails.Width,
+                    diggingDepth: modelDetails['Digging depth '],
+                    range: modelDetails.Range,
+                    length: modelDetails['Length '],
+                    transport:modelDetails['Transport width of'],
+                    height:modelDetails['Height '],
+                    wieght:modelDetails['Weight '],
+                    dumbingHieght:modelDetails['Dumping height'],
+                    rentprice:modelDetails.RentPrice,
+                    price: modelDetails.currentMarketPrice
                 };
             });
         });
@@ -201,33 +206,58 @@ const CarDetail = () => {
                                     </ListGroup.Item>
                                     <ListGroup.Item action>
                                         <TbEngine size="2em" className="me-2" style={{ marginTop: "-8px" }} />
-                                        <span className="fs-6">Leistung (PS):</span> &nbsp;
-                                        <span className="fs-5 fw-bold">{cars[carId].power}</span>
+                                        <span className="fs-6">Geräuschpegel (dB):</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].noiseLevel}</span>
                                     </ListGroup.Item>
                                     <ListGroup.Item action>
                                         <PiEngineFill size="2em" className="me-2" style={{ marginTop: "-8px" }} />
-                                        <span className="fs-6">Hubraum:</span> &nbsp;
-                                        <span className="fs-5 fw-bold">{cars[carId].engineSize}</span>
+                                        <span className="fs-6">Tankinhalt (l)::</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].tankCapacity}</span>
                                     </ListGroup.Item>
                                     <ListGroup.Item action>
                                         <TbManualGearbox size="2em" className="me-2" style={{ marginTop: "-8px" }} />
-                                        <span className="fs-6">Getriebe:</span> &nbsp;
-                                        <span className="fs-5 fw-bold">{cars[carId].gearbox}</span>
+                                        <span className="fs-6">Breite (mm):</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].width}</span>
                                     </ListGroup.Item>
                                     <ListGroup.Item action>
                                         <BsCarFront size="2em" className="me-2" style={{ marginTop: "-10px" }} />
-                                        <span className="fs-6">Karosserie:</span> &nbsp;
-                                        <span className="fs-5 fw-bold">{cars[carId].bodyType}</span>
+                                        <span className="fs-6">Grabtiefe (mm):</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].diggingDepth}</span>
                                     </ListGroup.Item>
                                     <ListGroup.Item action>
                                         <BsFillFuelPumpFill size="2em" className="me-2" style={{ marginTop: "-10px" }} />
-                                        <span className="fs-6">Kraftstoffart:</span> &nbsp;
-                                        <span className="fs-5 fw-bold">{cars[carId].fuelType}</span>
+                                        <span className="fs-6">Reichweite (mm):</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].range}</span>
                                     </ListGroup.Item>
                                     <ListGroup.Item action>
                                         <BsSpeedometer2 size="2em" className="me-2" style={{ marginTop: "-10px" }} />
-                                        <span className="fs-6">Kilometer:</span> &nbsp;
-                                        <span className="fs-5 fw-bold">{cars[carId].km}</span>
+                                        <span className="fs-6">Länge (mm):</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].length}</span>
+                                    </ListGroup.Item>
+                                    <ListGroup.Item action>
+                                        <BsSpeedometer2 size="2em" className="me-2" style={{ marginTop: "-10px" }} />
+                                        <span className="fs-6">Transportbreite von (mm):</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].transport}</span>
+                                    </ListGroup.Item>
+                                    <ListGroup.Item action>
+                                        <BsSpeedometer2 size="2em" className="me-2" style={{ marginTop: "-10px" }} />
+                                        <span className="fs-6">Höhe (mm):</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].height}</span>
+                                    </ListGroup.Item>
+                                    <ListGroup.Item action>
+                                        <BsSpeedometer2 size="2em" className="me-2" style={{ marginTop: "-10px" }} />
+                                        <span className="fs-6">Gewicht (kg):</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].wieght}</span>
+                                    </ListGroup.Item>
+                                    <ListGroup.Item action>
+                                        <BsSpeedometer2 size="2em" className="me-2" style={{ marginTop: "-10px" }} />
+                                        <span className="fs-6">Schütthöhe (mm):</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].dumbingHieght}</span>
+                                    </ListGroup.Item>
+                                    <ListGroup.Item action>
+                                        <BsSpeedometer2 size="2em" className="me-2" style={{ marginTop: "-10px" }} />
+                                        <span className="fs-6">Mietpreis:</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].rentprice}</span>
                                     </ListGroup.Item>
                                     <ListGroup.Item action>
                                         <FaEuroSign size="1.5em" className="me-2" style={{ marginTop: "-8px" }} />

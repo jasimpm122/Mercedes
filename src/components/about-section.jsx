@@ -23,12 +23,15 @@ const AboutSection = () => {
                 Über uns
               </h1>
               <p className="about-text fs-5 m-0">
-              Wir sind ein führendes Autohaus mit einer Leidenschaft für die Bereitstellung der besten Fahrzeuge und des besten Kundendienstes.
-                    Unsere Mission ist es, Kunden dabei zu helfen, das perfekte Auto zu finden, das ihren Bedürfnissen und ihrem Budget entspricht.
-                    Mit jahrelanger Erfahrung und einer großen Auswahl an Premiumfahrzeugen gewährleisten wir erstklassige Qualität bei Produkten und
-                    Dienstleistungen. Unser Expertenteam begleitet Sie durch jeden Schritt des Prozesses, von der Auswahl des richtigen Modells bis zum
-                    Abschluss des Kaufs. Zusätzlich versenden wir Autos weltweit und arbeiten mit mehreren Transportunternehmen zusammen, um eine sichere
-                    und effiziente Lieferung zu gewährleisten.
+                Baumaschinen sind unsere Leidenschaft – und das seit über 50 Jahren! Aber HKL ist noch viel mehr: 
+                Bei uns finden Sie einen zuverlässigen Partner, der Ihnen höchste Qualität und individuelle Lösungen 
+                für jeden Bedarf bietet. Ob Miete, Kauf oder Service – unsere Leistungen passen. Wir unterstützen 
+                Sie bei allen kleinen und großen Projekten und legen stets Wert auf Zuverlässigkeit, Transparenz 
+                und Fairness.
+                
+                Mit über 170 Centern in Deutschland und Österreich sowie weiteren Niederlassungen in Polen sind 
+                wir immer bequem in Ihrer Nähe. Sie finden bei uns außerdem spezialisierte Zentren für Raumsysteme, 
+                Arbeitsbühnen, Teleskopmaschinen und sogar für Stromversorgung.
               </p>
             </div>
           </Col>
@@ -42,17 +45,17 @@ const AboutSection = () => {
           {[{
             name: "Olaf Hemmer",
             role: "Sales Manager",
-            description: "MBA in Marketing, 10+ years in the automotive industry",
+            description: "MBA in Marketing, über 10 Jahre in der Automobilbranche",
             image: member1
           }, {
             name: "Michael Brill",
             role: "Senior Sales Executive",
-            description: "Bachelor's in Business Administration, 8 years in sales",
+            description: "Bachelor in Betriebswirtschaft, 8 Jahre im Vertrieb",
             image: member2
           }, {
             name: "Sebastian Mitusch",
             role: "Sales Consultant",
-            description: "Diploma in Automotive Sales, 5 years in customer relations",
+            description: "Diplom in Automobilverkauf, 5 Jahre in der Kundenbetreuung",
             image: member3
           }].map((member, index) => (
             <Col xs={12} sm={6} md={4} key={index} className="mb-4">

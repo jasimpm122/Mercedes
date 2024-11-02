@@ -1,35 +1,78 @@
-import React from 'react';
-
-import {Container, Row, Col} from "react-bootstrap";
-
-import {AiOutlineSafety} from "react-icons/ai";
-import {HiOutlineStatusOnline} from "react-icons/hi";
-import {BiSolidOffer} from "react-icons/bi";
+import React, { useEffect, useState } from 'react';
+import { Container, Row, Col } from "react-bootstrap";
+import { MdLocationOn } from "react-icons/md";
+import { AiOutlineCalendar } from "react-icons/ai";
+import { FaTruck } from "react-icons/fa";
 
 const FeaturesSection = () => {
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
     <div id="features-section">
         <Container className="py-5">
             <Row>
                 <Col>
-                  <h1 className="quinary-color fs-1 p-0 mb-4">WARUM UNS WÄHLEN</h1>
+                  <h1 
+                    className="quinary-color p-0 mb-4" 
+                    style={{ fontSize: isMobile ? '1.5rem' : '2.5rem' }}
+                  >
+                    So einfach geht die HKL Miete
+                  </h1>
                 </Col>
             </Row>
             <Row>
               <Col xs={4}>
-                <AiOutlineSafety size="2.5em" color="white"/>
-                <h4 className="quinary-color fs-5 py-1">Verlässliche Qualität</h4>
-                <p className="quinary-color fs-6 m-0 pb-2">Unsere gebrauchten Fahrzeuge sind sorgfältig geprüft, um Sicherheit und Zuverlässigkeit zu gewährleisten.</p>
+                <MdLocationOn size="2.5em" color="white"/>
+                <h4 
+                  className="quinary-color py-1" 
+                  style={{ fontSize: isMobile ? '1rem' : '1.25rem' }}
+                >
+                  Einsatzort festlegen
+                </h4>
+                <p 
+                  className="quinary-color m-0 pb-2" 
+                  style={{ fontSize: isMobile ? '0.9rem' : '1rem' }}
+                >
+                  Einfach Postleitzahl eingeben und das nächstgelegene HKL Center finden.
+                </p>
               </Col>
               <Col xs={4}>
-                <HiOutlineStatusOnline size="2.5em" color="white"/>
-                <h4 className="quinary-color fs-5 py-1">Einfache Online-Anfrage</h4>
-                <p className="quinary-color fs-6 m-0 pb-2">Reservieren Sie Ihr Fahrzeug bequem online – einfach, schnell und stressfrei.</p>
+                <AiOutlineCalendar size="2.5em" color="white"/>
+                <h4 
+                  className="quinary-color py-1" 
+                  style={{ fontSize: isMobile ? '1rem' : '1.25rem' }}
+                >
+                  Mietzeitraum festlegen
+                </h4>
+                <p 
+                  className="quinary-color m-0 pb-2" 
+                  style={{ fontSize: isMobile ? '0.9rem' : '1rem' }}
+                >
+                  Wählen Sie aus, wie lang Sie die Produkte mieten möchten.
+                </p>
               </Col>
               <Col xs={4}>
-                <BiSolidOffer size="2.5em" color="white"/>
-                <h4 className="quinary-color fs-5 py-1">Top Preis-Leistungs-Verhältnis</h4>
-                <p className="quinary-color fs-6 m-0 pb-2">Wir bieten die besten Angebote für hochwertige Gebrauchtwagen, die zu Ihrem Budget passen.</p>
+                <FaTruck size="2.5em" color="white"/>
+                <h4 
+                  className="quinary-color py-1" 
+                  style={{ fontSize: isMobile ? '1rem' : '1.25rem' }}
+                >
+                  Transportoption wählen
+                </h4>
+                <p 
+                  className="quinary-color m-0 pb-2" 
+                  style={{ fontSize: isMobile ? '0.9rem' : '1rem' }}
+                >
+                  Abholung oder Lieferung mit unserem Hol- und Bringservice: Beides ist kein Problem.
+                </p>
               </Col>
             </Row>
         </Container>

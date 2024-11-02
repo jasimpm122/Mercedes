@@ -18,7 +18,7 @@ const Footer = () => {
           <Container className="pt-3 pb-2">
             <Row>
               <Col>
-                <h1 className="fs-1 text-center quinary-color">KLAUS SCHELLER GMBH</h1>
+                <h1 className="fs-1 text-center quinary-color">HKL-BAUMASCHINEN</h1>
               </Col>
             </Row>
             <Row>
@@ -39,7 +39,7 @@ const Footer = () => {
                       <br />
                       <span>
                     <GrMail className="header-line-2-icon" />&nbsp;
-                        <a href="mailto:kundendienst@bmw-scheller.com" target="_blank" className="text-white">kundendienst@bmw-scheller.com</a>
+                        <a href="mailto:kundendienst@bmw-scheller.com" target="_blank" className="text-white">kundendienst@hkl-baumaschinen.com</a>
                   </span>
                     </p>
                     <div className="social-icon">
