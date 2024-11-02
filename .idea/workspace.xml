@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="bmw change header">
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DATA/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DATA/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/banner-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/banner-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/newcar.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/newcar.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/wfe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/wfe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about-section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/car-offers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/car-offers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/features-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/features-section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider.jsx" afterDir="false" />
+    <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="xonstructot change header">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/car-detail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/car-detail.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730348852642</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="xonstructot change header">
+      <option name="closed" value="true" />
+      <created>1730523486944</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730523486944</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +177,7 @@
     <MESSAGE value=" chnages nreghyuiop[" />
     <MESSAGE value="bmw change" />
     <MESSAGE value="bmw change header" />
-    <option name="LAST_COMMIT_MESSAGE" value="bmw change header" />
+    <MESSAGE value="xonstructot change header" />
+    <option name="LAST_COMMIT_MESSAGE" value="xonstructot change header" />
   </component>
 </project>
