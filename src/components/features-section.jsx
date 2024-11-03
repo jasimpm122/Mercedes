@@ -72,6 +72,7 @@ const FeaturesSection = () => {
                   style={{ fontSize: isMobile ? '0.9rem' : '1rem' }}
                 >
                   Abholung oder Lieferung mit unserem Hol- und Bringservice: Beides ist kein Problem.
+                 Europaweiter Versand: Wir liefern die Bagger per Spedition an jeden Ort in Europa.
                 </p>
               </Col>
             </Row>

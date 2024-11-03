@@ -23,15 +23,9 @@ const AboutSection = () => {
                 Über uns
               </h1>
               <p className="about-text fs-5 m-0">
-                Baumaschinen sind unsere Leidenschaft – und das seit über 50 Jahren! Aber HKL ist noch viel mehr: 
-                Bei uns finden Sie einen zuverlässigen Partner, der Ihnen höchste Qualität und individuelle Lösungen 
-                für jeden Bedarf bietet. Ob Miete, Kauf oder Service – unsere Leistungen passen. Wir unterstützen 
-                Sie bei allen kleinen und großen Projekten und legen stets Wert auf Zuverlässigkeit, Transparenz 
-                und Fairness.
-                
-                Mit über 170 Centern in Deutschland und Österreich sowie weiteren Niederlassungen in Polen sind 
-                wir immer bequem in Ihrer Nähe. Sie finden bei uns außerdem spezialisierte Zentren für Raumsysteme, 
-                Arbeitsbühnen, Teleskopmaschinen und sogar für Stromversorgung.
+              Baumaschinen sind unsere Leidenschaft – und das seit über 50 Jahren! Aber HKL ist noch viel mehr: Bei uns finden Sie einen zuverlässigen Partner, der Ihnen höchste Qualität und individuelle Lösungen für jeden Bedarf bietet. Ob Miete, Kauf oder Service – unsere Leistungen passen. Wir unterstützen Sie bei allen kleinen und großen Projekten und legen stets Wert auf Zuverlässigkeit, Transparenz und Fairness. Mit über 170 Centern in Deutschland und Österreich sowie weiteren Niederlassungen in Polen sind wir immer bequem in Ihrer Nähe. Sie finden bei uns außerdem spezialisierte Zentren für Raumsysteme, Arbeitsbühnen, Teleskopmaschinen und sogar für Stromversorgung.
+
+Zusätzlich bieten wir einen europaweiten Versandservice an: Wir liefern die Bagger per Spedition an jeden Ort in Europa.
               </p>
             </div>
           </Col>
@@ -46,17 +40,17 @@ const AboutSection = () => {
             name: "Olaf Hemmer",
             role: "Sales Manager",
             description: "MBA in Marketing, über 10 Jahre in der Automobilbranche",
-            image: member1
+            image: 'https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/company/leadership-and-governance/_jcr_content/main/layoutcontainer_0_0/peoplegalleryinfo/personinfosubcompone_3.coreimg.82.1280.jpeg/1706199674142/fotos-vorstand-720x480px-nedeljkovic.jpeg'
           }, {
             name: "Michael Brill",
             role: "Senior Sales Executive",
             description: "Bachelor in Betriebswirtschaft, 8 Jahre im Vertrieb",
-            image: member2
+            image: 'https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/company/leadership-and-governance/_jcr_content/main/layoutcontainer_0_0/peoplegalleryinfo/personinfosubcompone_858352812.coreimg.82.1280.jpeg/1706199628566/720x480-hr-zipse-3495-feb-2021.jpeg'
           }, {
             name: "Sebastian Mitusch",
             role: "Sales Consultant",
             description: "Diplom in Automobilverkauf, 5 Jahre in der Kundenbetreuung",
-            image: member3
+            image: 'https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/company/leadership-and-governance/_jcr_content/main/layoutcontainer_0_0/peoplegalleryinfo/personinfosubcompone_2.coreimg.82.1280.jpeg/1706199666623/bmw-group-portrait-walter-mertl-1440x960px.jpeg'
           }].map((member, index) => (
             <Col xs={12} sm={6} md={4} key={index} className="mb-4">
               <Card className="h-100" style={{ border: 'none', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', borderRadius: '8px' }}>
@@ -74,7 +68,7 @@ const AboutSection = () => {
         {/* Hours and Contact */}
         <div className="text-center mt-4">
           <h5 className="fw-bold">Montag bis Samstag 8-18 Uhr</h5>
-          <p><a href="mailto:kundendienst@bmw-scheller.com" style={{ color: '#007BFF', textDecoration: 'underline' }}>kundendienst@bmw-scheller.com</a></p>
+          <p><a href="mailto:kundendienst@hkl-baumaschinen.com" style={{ color: '#007BFF', textDecoration: 'underline' }}> kundendienst@hkl-baumaschinen.com</a></p>
           <p><Link to="/details" style={{ color: '#007BFF', textDecoration: 'underline' }}>
           Impressum
         </Link></p>
