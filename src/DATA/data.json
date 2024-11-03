@@ -354,7 +354,80 @@
             ]
         }
     }
+},
+{
+    "brand": "Komatsu",
+    "model": {
+        "PC16R-3HS Minibagger": {
+            "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586560/66fc8524a6505549710440-10110361_1.jpg.webp",
+            "currentMarketPrice": "Ab 27,000 €",
+            "RentPrice": "ab 105,00 € / Arbeitstag (inkl. MwSt.)",
+            "Noise level": "N/A",
+            "Tank capacity": "19",
+            "Width": "980",
+            "Digging depth": "2,410",
+            "Range": "3,990",
+            "Length": "3,540",
+            "Transport width of": "980",
+            "Height": "2,320",
+            "Weight": "1,860",
+            "Dumping height": "2,815",
+            "viewImages": [
+                "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586560/66fc8524a6505549710440-10110361_1.jpg.webp"
+            ]
+        }
+    }
+},
+{
+    "brand": "Kubota",
+    "model": {
+        "U27-4 Minibagger": {
+            "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586398/66fc8524279e4311041473-10110290_1.jpg.webp",
+            "currentMarketPrice": "Ab 27.000 €",
+            "RentPrice": "ab 189,00 € / Arbeitstag (inkl. MwSt.)",
+            "Noise level": "79 dB",
+            "Tank capacity": "33 l",
+            "Width": "1.500 mm",
+            "Digging depth": "2.820 mm",
+            "Range": "4.630 mm",
+            "Length": "4.190 mm",
+            "Transport width of": "1.500 mm",
+            "Height": "2.430 mm",
+            "Weight": "2.590 kg",
+            "Dumping height": "3.100 mm",
+            "viewImages": [
+                "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/586398/66fc8524279e4311041473-10110290_1.jpg.webp"
+            ]
+        }
+    }
+},
+
+{
+    "brand": "Kubota",
+    "model": {
+        "U20 Minibagger": {
+            "imageUrl": "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587628/66fc85589e6da136382227-10110278_1.jpeg.webp",
+            "currentMarketPrice": "Preis auf Anfrage",
+            "RentPrice": "ab 182,07 € / Arbeitstag(inkl. MwSt.)",
+            "Noise level": "N/A",
+            "Tank capacity": "N/A",
+            "Width": "1.500 mm",
+            "Digging depth": "2.540 mm",
+            "Range": "4.260 mm",
+            "Length": "3.850 mm",
+            "Transport width of": "1.500 mm",
+            "Height": "2.380 mm",
+            "Weight": "2.380 kg",
+            "Dumping height": "N/A",
+            "viewImages": [
+                "https://www.hkl-baumaschinen.de/media/cache/attachment/filter/product_gallery_main/9e256c59daf1c360fa2a692e1a4d8eeb/587628/66fc85589e6da136382227-10110278_1.jpeg.webp"
+            ]
+        }
+    }
 }
+
+
+
 
 
 

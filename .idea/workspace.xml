@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="xonstructot change header">
-      <change beforePath="$PROJECT_DIR$/src/components/car-search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/car-search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="xonstructot change header" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,14 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "NewConstruction",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/kafka/data/deploy/newUiMercedes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;NewConstruction&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/kafka/data/deploy/newUiMercedes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\kafka\data\deploy\project ger\Mercedes\public" />
@@ -199,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730540314358</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="xonstructot change header">
+      <option name="closed" value="true" />
+      <created>1730614511036</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1730614511036</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
