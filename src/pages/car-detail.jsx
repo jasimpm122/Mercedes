@@ -12,6 +12,7 @@ import data from '../DATA/data.json';
 import { loadingContent } from "../components/general/general-components";
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
+import { BsCalendar2 } from "react-icons/bs";
 import axios from 'axios';
 
 const CarDetail = () => {
@@ -46,6 +47,7 @@ const CarDetail = () => {
                 carData[modelId] = {
                     brandId,
                     modelId,
+                    year:modelDetails.year,
                     images: modelDetails.viewImages || [],
                     carCount: 1,
                     power: modelDetails.power,
@@ -228,6 +230,11 @@ const CarDetail = () => {
                                         <BsSpeedometer2 size="2em" className="me-2" style={{ marginTop: "-10px" }} />
                                         <span className="fs-6">Kilometer:</span> &nbsp;
                                         <span className="fs-5 fw-bold">{cars[carId].km}</span>
+                                    </ListGroup.Item>
+                                    <ListGroup.Item action>
+                                        <BsCalendar2 size="2em" className="me-2" style={{ marginTop: "-10px" }} />
+                                        <span className="fs-6">Jahr:</span> &nbsp;
+                                        <span className="fs-5 fw-bold">{cars[carId].year}</span>
                                     </ListGroup.Item>
                                     <ListGroup.Item action>
                                         <FaEuroSign size="1.5em" className="me-2" style={{ marginTop: "-8px" }} />
