@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="email change header" />
+    <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="price change">
+      <change beforePath="$PROJECT_DIR$/src/DATA/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DATA/data.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730964630678</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="price change">
+      <option name="closed" value="true" />
+      <created>1731061729860</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1731061729860</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,6 +249,7 @@
     <MESSAGE value="bmw change header" />
     <MESSAGE value="xonstructot change header" />
     <MESSAGE value="email change header" />
-    <option name="LAST_COMMIT_MESSAGE" value="email change header" />
+    <MESSAGE value="price change" />
+    <option name="LAST_COMMIT_MESSAGE" value="price change" />
   </component>
 </project>
