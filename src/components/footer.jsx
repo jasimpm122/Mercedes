@@ -39,7 +39,7 @@ const Footer = () => {
                       <br />
                       <span>
                     <GrMail className="header-line-2-icon" />&nbsp;
-                        <a href="mailto:kundendienst@baumaschinen-hkl.de" target="_blank" className="text-white">kundendienst@baumaschinen-hkl.de</a>
+                        <a href="mailto:olaf.hemmer@baumaschinen-hkl.com" target="_blank" className="text-white">olaf.hemmer@baumaschinen-hkl.com</a>
                   </span>
                     </p>
                     <div className="social-icon">

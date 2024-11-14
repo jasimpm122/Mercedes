@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="price change">
-      <change beforePath="$PROJECT_DIR$/src/DATA/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DATA/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731061729860</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="price change">
+      <option name="closed" value="true" />
+      <created>1731062075567</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731062075567</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
