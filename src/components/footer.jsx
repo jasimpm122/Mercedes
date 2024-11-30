@@ -34,7 +34,7 @@ const Footer = () => {
                       <br />
                       <span>
                     <BsTelephoneFill size="0.9em" className="header-line-2-icon" />&nbsp;
-                        <a href="tel:+12126583916" target="_blank" className="text-white">(212) 658-3916</a>
+                        <a href="tel:+49 231 2929489404" target="_blank" className="text-white">(212) 658-3916</a>
                   </span>
                       <br />
                       <span>
