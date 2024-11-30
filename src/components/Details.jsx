@@ -57,8 +57,7 @@ function Details() {
 
             <p style={{ marginBottom: '20px' }}>
             22339 Hamburg-Hummelsbüttel<br />
-                Tel.: +49 6322 9425-0<br />
-                Fax: +49 6322 9425-15<br />
+                Tel.: +49 231 2929489404<br />
                 E-Mail: <a href="mailto:olaf.hemmer@baumaschinen-hkl.com" style={{ color: '#007BFF', textDecoration: 'none' }}>olaf.hemmer@baumaschinen-hkl.com</a>
             </p>
         </div>
