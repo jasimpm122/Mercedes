@@ -20,7 +20,7 @@ function Contact() {
                 marginBottom: '5px',
                 color: '#333',
             }}>
-                HKL-BAUMASCHINEN - KONTAKT
+                SB KONZEPT - KONTAKT
             </h1>
             <p style={{
                 fontSize: isMobileOrTablet ? '12px' : '14px',
@@ -44,7 +44,7 @@ function Contact() {
             <p style={{ marginBottom: '20px' }}>
             22339 Hamburg-Hummelsbüttel<br />
                 Tel.: +49 231 2929489404<br />
-                E-Mail: <a href="mailto:olaf.hemmer@baumaschinen-hkl.com" style={{ color: '#007BFF', textDecoration: 'none' }}>olaf.hemmer@baumaschinen-hkl.com</a>
+                E-Mail: <a href="mailto:info@konzept-sb.de" style={{ color: '#007BFF', textDecoration: 'none' }}>info@konzept-sb.de</a>
             </p>
 
             <h2 style={{

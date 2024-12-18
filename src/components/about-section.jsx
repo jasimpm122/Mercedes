@@ -68,7 +68,7 @@ Zusätzlich bieten wir einen europaweiten Versandservice an: Wir liefern die Bag
         {/* Hours and Contact */}
         <div className="text-center mt-4">
           <h5 className="fw-bold">Montag bis Samstag 8-18 Uhr</h5>
-          <p><a href="mailto:olaf.hemmer@baumaschinen-hkl.com" style={{ color: '#007BFF', textDecoration: 'underline' }}> olaf.hemmer@baumaschinen-hkl.com</a></p>
+          <p><a href="mailto:info@konzept-sb.de" style={{ color: '#007BFF', textDecoration: 'underline' }}> info@konzept-sb.de</a></p>
           <p><Link to="/details" style={{ color: '#007BFF', textDecoration: 'underline' }}>
           Impressum
         </Link></p>

@@ -51,7 +51,7 @@ const Header = () => {
                                     style={{ height: "40px", width: "auto" }} 
                                     className="me-2" 
                                 />
-                                <span className="fw-bold text-dark" style={{ fontSize: '1rem' }}>HKL-BAUMASCHINEN</span>
+                                <span className="fw-bold text-dark" style={{ fontSize: '1rem' }}>SB KONZEPT</span>
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">

@@ -35,13 +35,16 @@ function Details() {
                 color: '#333',
                 marginBottom: '10px',
             }}>
-                HKL-BAUMASCHINEN
+                SB KONZEPT
             </h2>
             <p style={{ marginBottom: '20px' }}>
-            Authorized representatives: Kay Städing, Arndt Rodewald, Dirk Bahrenthien, Frank Seidler<br />
-            HKL BAUMASCHINEN GmbH is registered in the commercial register of the Hamburg Registry Court under the number: HR B 13573<br />
-            VAT ID No.: DE 118 663 931
-            Tax No.: 50/731/00293
+           SB Konzept & Vending GmbH mit der Handelsregisternummer HRB 40063 (Amtsgericht Potsdam) ist seit dem 27.11.2024 aktiv.
+           Das Gründungskapital des Unternehmens ist 25.000,00 EUR.<br />
+            Die offizielle Adresse des Unternehmens ist seit der Gründung Jüterboger Straße 31a, 14943, Luckenwalde.<br />
+            An dieser Adresse sind 2 zusätzliche Firmen, darunter Eistechnikcenter GmbH und BB Eismanufaktur GmbH.
+            Seit der Gründung des Unternehmens ist Samir Assaf Geschäftsführer.
+            Die letzte bekannte Änderung im Handelsregister war am 27.11.2024.
+            Unter der Rubrik Bekanntmachungen können alle Handelsregistereinträge abgerufen werden.
             </p>
 
             <h3 style={{
@@ -58,7 +61,7 @@ function Details() {
             <p style={{ marginBottom: '20px' }}>
             22339 Hamburg-Hummelsbüttel<br />
                 Tel.: +49 231 2929489404<br />
-                E-Mail: <a href="mailto:olaf.hemmer@baumaschinen-hkl.com" style={{ color: '#007BFF', textDecoration: 'none' }}>olaf.hemmer@baumaschinen-hkl.com</a>
+                E-Mail: <a href="mailto:info@konzept-sb.de" style={{ color: '#007BFF', textDecoration: 'none' }}>info@konzept-sb.de</a>
             </p>
         </div>
     );
