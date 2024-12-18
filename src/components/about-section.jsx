@@ -23,7 +23,7 @@ const AboutSection = () => {
                 Über uns
               </h1>
               <p className="about-text fs-5 m-0">
-              Baumaschinen sind unsere Leidenschaft – und das seit über 50 Jahren! Aber HKL ist noch viel mehr: Bei uns finden Sie einen zuverlässigen Partner, der Ihnen höchste Qualität und individuelle Lösungen für jeden Bedarf bietet. Ob Miete, Kauf oder Service – unsere Leistungen passen. Wir unterstützen Sie bei allen kleinen und großen Projekten und legen stets Wert auf Zuverlässigkeit, Transparenz und Fairness. Mit über 170 Centern in Deutschland und Österreich sowie weiteren Niederlassungen in Polen sind wir immer bequem in Ihrer Nähe. Sie finden bei uns außerdem spezialisierte Zentren für Raumsysteme, Arbeitsbühnen, Teleskopmaschinen und sogar für Stromversorgung.
+              Baumaschinen sind unsere Leidenschaft – und das seit über 50 Jahren! Aber SB KONZEPT ist noch viel mehr: Bei uns finden Sie einen zuverlässigen Partner, der Ihnen höchste Qualität und individuelle Lösungen für jeden Bedarf bietet. Ob Miete, Kauf oder Service – unsere Leistungen passen. Wir unterstützen Sie bei allen kleinen und großen Projekten und legen stets Wert auf Zuverlässigkeit, Transparenz und Fairness. Mit über 170 Centern in Deutschland und Österreich sowie weiteren Niederlassungen in Polen sind wir immer bequem in Ihrer Nähe. Sie finden bei uns außerdem spezialisierte Zentren für Raumsysteme, Arbeitsbühnen, Teleskopmaschinen und sogar für Stromversorgung.
 
 Zusätzlich bieten wir einen europaweiten Versandservice an: Wir liefern die Bagger per Spedition an jeden Ort in Europa.
               </p>
