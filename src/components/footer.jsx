@@ -30,12 +30,6 @@ const Footer = () => {
                   <span>
                     <IoLocation className="header-line-2-icon" />&nbsp;
                     <a href="https://goo.gl/maps/2rkkAA9FP5pegCXF9" target="_blank" className="text-white">Deutschland</a>
-                  </span>
-                      <br />
-                      <span>
-                    <BsTelephoneFill size="0.9em" className="header-line-2-icon" />&nbsp;
-                        <a href="tel:+49 231 2929489404" target="_blank" className="text-white">+49 231 2929489404</a>
-                  </span>
                       <br />
                       <span>
                     <GrMail className="header-line-2-icon" />&nbsp;
