@@ -38,7 +38,7 @@ function Details() {
                 SB KONZEPT
             </h2>
             <p style={{ marginBottom: '20px' }}>
-SB Konzept & Vending GmbH mit der  ist seit dem 27.11.2024 aktiv.<br />
+SB Konzept & Vending GmbH mit  seit dem 27.11.2024 aktiv.<br />
  Das Gründungskapital des Unternehmens ist 25.000,00 EUR.<br />
 Die offizielle Adresse des Unternehmens ist seit der Gründung Jüterboger Straße 31a, 14943, Luckenwalde.<br />
 An dieser Adresse sind 2 zusätzliche Firmen, darunter Eistechnikcenter GmbH und BB Eismanufaktur GmbH. <br />
