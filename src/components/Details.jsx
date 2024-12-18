@@ -38,13 +38,14 @@ function Details() {
                 SB KONZEPT
             </h2>
             <p style={{ marginBottom: '20px' }}>
-           SB Konzept & Vending GmbH mit der Handelsregisternummer HRB 40063 (Amtsgericht Potsdam) ist seit dem 27.11.2024 aktiv.
-           Das Gründungskapital des Unternehmens ist 25.000,00 EUR.<br />
-            Die offizielle Adresse des Unternehmens ist seit der Gründung Jüterboger Straße 31a, 14943, Luckenwalde.<br />
-            An dieser Adresse sind 2 zusätzliche Firmen, darunter Eistechnikcenter GmbH und BB Eismanufaktur GmbH.
-            Seit der Gründung des Unternehmens ist Samir Assaf Geschäftsführer.
-            Die letzte bekannte Änderung im Handelsregister war am 27.11.2024.
-            Unter der Rubrik Bekanntmachungen können alle Handelsregistereinträge abgerufen werden.
+SB Konzept & Vending GmbH mit der  ist seit dem 27.11.2024 aktiv.<br />
+ Das Gründungskapital des Unternehmens ist 25.000,00 EUR.<br />
+Die offizielle Adresse des Unternehmens ist seit der Gründung Jüterboger Straße 31a, 14943, Luckenwalde.<br />
+An dieser Adresse sind 2 zusätzliche Firmen, darunter Eistechnikcenter GmbH und BB Eismanufaktur GmbH. <br />
+Seit der Gründung des Unternehmens ist Samir Assaf Geschäftsführer.<br />
+ Die letzte bekannte Änderung im Handelsregister war am 27.11.2024.<br />
+  Unter der Rubrik Bekanntmachungen können alle Handelsregistereinträge abgerufen werden.<br />
+Handelsregisternummer HRB 40063 (Amtsgericht Potsdam)
             </p>
 
             <h3 style={{
