@@ -31,8 +31,6 @@ const Footer = () => {
                     <IoLocation className="header-line-2-icon" />&nbsp;
                     <a href="https://goo.gl/maps/2rkkAA9FP5pegCXF9" target="_blank" className="text-white">Deutschland</a>
                   </span>
-                      <br />
-                      <br />
                       <span>
                     <GrMail className="header-line-2-icon" />&nbsp;
                         <a href="mailto:info@konzept-sb.de" target="_blank" className="text-white">info@konzept-sb.de</a>
