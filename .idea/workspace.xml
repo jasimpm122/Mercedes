@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="new cha ges">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/newcar1.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/newcar.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/newcar.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about-section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/car-offers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/car-offers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-section.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +47,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "NewConstruction",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/kafka/data/deploy/project ger/Mercedes/public"
+    "last_opened_file_path": "D:/kafka/data/deploy/project ger/Mercedes/src/assets/images"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\kafka\data\deploy\project ger\Mercedes\src\assets\images" />
       <recent name="D:\kafka\data\deploy\project ger\Mercedes\public" />
+      <recent name="D:\kafka\data\deploy\project ger\Mercedes\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\kafka\data\deploy\project ger\Mercedes\src\assets\images" />
     </key>
   </component>
@@ -271,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733278762883</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="new cha ges">
+      <option name="closed" value="true" />
+      <created>1734511921039</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734511921039</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
