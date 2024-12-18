@@ -30,6 +30,8 @@ const Footer = () => {
                   <span>
                     <IoLocation className="header-line-2-icon" />&nbsp;
                     <a href="https://goo.gl/maps/2rkkAA9FP5pegCXF9" target="_blank" className="text-white">Deutschland</a>
+                  </span>
+                      <br />
                       <br />
                       <span>
                     <GrMail className="header-line-2-icon" />&nbsp;
