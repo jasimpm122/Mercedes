@@ -55,7 +55,7 @@ const CarSearch = () => {
             <Container className="py-5">
                 <Row>
                     <Col>
-                        <h1 className="quinary-color fs-2 p-0 mb-2">Baumaschinen suchen</h1>
+                        <h1 className="quinary-color fs-2 p-0 mb-2">Finde deinen Job</h1>
                         <p className="quinary-color fs-5 p-0 m-0 mb-5">Wählen Sie Ihre bevorzugte Marke und Modell</p>
                         <Container>
                             <Row>

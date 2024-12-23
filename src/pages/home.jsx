@@ -14,7 +14,7 @@ const Home = () => {
         <div id="homepage">
             <Slider/>
 
-            <CarSearch />
+            {/* <CarSearch /> */}
             <CarOffers/>
             <FeaturesSection/>
             {/* <CustomerReview/>

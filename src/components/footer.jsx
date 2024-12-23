@@ -18,7 +18,7 @@ const Footer = () => {
           <Container className="pt-3 pb-2">
             <Row>
               <Col>
-                <h1 className="fs-1 text-center quinary-color">SB KONZEPT</h1>
+                <h1 className="fs-1 text-center quinary-color">La Vida Consulting GmbH</h1>
               </Col>
             </Row>
             <Row>

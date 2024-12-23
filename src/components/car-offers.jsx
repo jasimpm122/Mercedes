@@ -47,7 +47,7 @@ const CarOffers = () => {
             <Container className="py-4">
                 <Row className="mb-5">
                     <Col>
-                        <h1 className="fs-1 text-center text-uppercase">SB Konzept: Mieten, Kaufen, Service</h1>
+                        <h1 className="fs-1 text-center text-uppercase">La Vida Consulting GmbH: Finde deinen Job</h1>
                     </Col>
                 </Row>
                 <Row>
