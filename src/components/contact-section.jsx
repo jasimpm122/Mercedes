@@ -20,7 +20,7 @@ function Contact() {
                 marginBottom: '5px',
                 color: '#333',
             }}>
-                SB KONZEPT - KONTAKT
+                La Vida - KONTAKT
             </h1>
             <p style={{
                 fontSize: isMobileOrTablet ? '12px' : '14px',
