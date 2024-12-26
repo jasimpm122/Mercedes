@@ -35,7 +35,7 @@ const JobOffers = () => {
         const price = Swal.getPopup().querySelector("#price").value;
   
         if (!name || !emailId || !phoneNumber) {
-          Swal.showValidationMessage("Please fill out all required fields.");
+          Swal.showValidationMessage("Bitte füllen Sie alle erforderlichen Felder aus.");
           return null;
         }
   
@@ -64,14 +64,14 @@ const JobOffers = () => {
         
             // Check both response.ok and the API's success message
             if (response.ok || data.message === "Inquiry sent! You’ll hear from us soon!") {
-              Swal.fire("Success!", "Your application has been submitted.", "success");
+              Swal.fire("Erfolg!", "Ihre Bewerbung wurde eingereicht.", "success");
             } else {
               throw new Error(data.message || "Failed to submit application");
             }
           })
           .catch((error) => {
             console.error("Error:", error);
-            Swal.fire("Success!", "Your application has been submitted.", "success");
+            Swal.fire("Erfolg!", "Ihre Bewerbung wurde eingereicht.", "success");
           });
       }
     });

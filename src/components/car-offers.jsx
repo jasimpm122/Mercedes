@@ -20,14 +20,14 @@ const JobOffers = () => {
       title: `Apply for ${job.jobRole}`,
       html: `
         <input type="text" id="name" class="swal2-input" placeholder="Name">
-        <input type="email" id="emailId" class="swal2-input" placeholder="Email Address">
-        <input type="text" id="phoneNumber" class="swal2-input" placeholder="Phone Number">
-        <input type="text" id="price" class="swal2-input" placeholder="Expected Salary">
+        <input type="email" id="emailId" class="swal2-input" placeholder="E-Mail-Adresse">
+        <input type="text" id="phoneNumber" class="swal2-input" placeholder="Telefonnummer">
+        <input type="text" id="price" class="swal2-input" placeholder="Erwartete Gehalts">
       `,
       focusConfirm: false,
       showCancelButton: true,
-      confirmButtonText: "Submit",
-      cancelButtonText: "Cancel",
+      confirmButtonText: "Einreichen",
+      cancelButtonText: "Stornieren",
       preConfirm: () => {
         const name = Swal.getPopup().querySelector("#name").value;
         const emailId = Swal.getPopup().querySelector("#emailId").value;
@@ -53,7 +53,7 @@ const JobOffers = () => {
 
         // Here you can send `payload` to your API
         console.log("Application Submitted:", payload);
-        Swal.fire("Success!", "Your application has been submitted.", "success");
+        Swal.fire("Erfolgreich!", "Ihre Bewerbung wurde eingereicht.", "success");
       }
     });
   };
@@ -64,7 +64,7 @@ const JobOffers = () => {
         <Row className="mb-5">
           <Col>
             <h1 className="fs-1 text-center text-uppercase">
-              Kubota Job Opportunities
+              Karrieremöglichkeiten
             </h1>
           </Col>
         </Row>
@@ -112,7 +112,7 @@ const JobOffers = () => {
                           marginBottom: "1rem",
                         }}
                       >
-                        <span style={{ fontWeight: "bold" }}>Description:</span>{" "}
+                        <span style={{ fontWeight: "bold" }}>Beschreibung:</span>{" "}
                         {job.jobDescription}
                       </p>
                       <p
@@ -123,7 +123,7 @@ const JobOffers = () => {
                           marginBottom: "1rem",
                         }}
                       >
-                        <span style={{ fontWeight: "bold" }}>Location:</span>{" "}
+                        <span style={{ fontWeight: "bold" }}>Standort:</span>{" "}
                         {job.location}
                       </p>
                       <p
@@ -135,7 +135,7 @@ const JobOffers = () => {
                         }}
                       >
                         <span style={{ fontWeight: "bold" }}>
-                          Employment Type:
+                          Beschäftigungsart:
                         </span>{" "}
                         {job.employmentType}
                       </p>
@@ -148,7 +148,7 @@ const JobOffers = () => {
                         }}
                       >
                         <span style={{ fontWeight: "bold" }}>
-                          Required Skills:
+                          Erforderliche Fähigkeiten:
                         </span>
                         <ul
                           style={{
