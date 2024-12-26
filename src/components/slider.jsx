@@ -25,7 +25,7 @@ const Slider = () => {
                 fontFamily: 'Verdana, sans-serif'
             }}>
                 <p style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold' }}>Erfolg durch maßgeschneiderte Beratungslösungen ermöglichen.</p>
-                <a style={{ marginTop: '5px', display: 'block', fontSize: '1rem' }}>mach weiter!</a>
+                <a style={{ marginTop: '5px', display: 'block', fontSize: '1rem' }}>mach weiter! </a>
             </div>
         </div>
     );
