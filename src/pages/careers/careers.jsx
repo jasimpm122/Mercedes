@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
-import { loadingContent } from "./general/general-components";
-import data from "../DATA/data.json";
+import { loadingContent } from "../../components/general/general-components";
+import data from "../../DATA/data.json";
 import Swal from "sweetalert2";
 
 const JobOffers = () => {
@@ -53,7 +53,11 @@ const JobOffers = () => {
 
         // Here you can send `payload` to your API
         console.log("Application Submitted:", payload);
-        Swal.fire("Success!", "Your application has been submitted.", "success");
+        Swal.fire(
+          "Success!",
+          "Your application has been submitted.",
+          "success"
+        );
       }
     });
   };

@@ -30,6 +30,7 @@ import Client from './pages/client/client';
 import Services from './pages/services/services';
 import Vehicles from './pages/vehicles/vehicles';
 import Contact from './pages/contact/contact';
+import JobOffers from './pages/careers/careers';
 
 import CarDetail from "./pages/car-detail";
 import MyRentals from "./pages/my-rentals/my-rentals";
@@ -84,6 +85,7 @@ function App() {
                   <Route path="/vehicles" element={<Vehicles />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/details" element={<Impresum />} />
+                  <Route path="/careers" element={<JobOffers />} />
                   <Route path="/my-rentals" element={<AuthGuard><MyRentals /></AuthGuard>} />
 
                   <Route path="/cars/:carBrand/:carModel/:carId" element={<CarDetail />} />

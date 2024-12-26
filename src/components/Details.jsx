@@ -59,7 +59,7 @@ Handelsregisternummer HRB 40063 (Amtsgericht Potsdam)
 
             <p style={{ marginBottom: '20px' }}>
             22339 Hamburg-Hummelsbüttel<br />
-                E-Mail: <a href="mailto:info@konzept-sb.de" style={{ color: '#007BFF', textDecoration: 'none' }}>info@konzept-sb.de</a>
+                E-Mail: <a href="mailto:info@konzept-sb.de" style={{ color: '#007BFF', textDecoration: 'none' }}>office@lavida-consulting.de</a>
             </p>
         </div>
     );
