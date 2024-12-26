@@ -132,7 +132,7 @@ const JobOffers = () => {
                           marginBottom: "1rem",
                         }}
                       >
-                        <span style={{ fontWeight: "bold" }}>Description:</span>{" "}
+                        <span style={{ fontWeight: "bold" }}>Beschreibung:</span>{" "}
                         {job.jobDescription}
                       </p>
                       <p
@@ -143,7 +143,7 @@ const JobOffers = () => {
                           marginBottom: "1rem",
                         }}
                       >
-                        <span style={{ fontWeight: "bold" }}>Location:</span>{" "}
+                        <span style={{ fontWeight: "bold" }}>Standort:</span>{" "}
                         {job.location}
                       </p>
                       <p
@@ -155,7 +155,7 @@ const JobOffers = () => {
                         }}
                       >
                         <span style={{ fontWeight: "bold" }}>
-                          Employment Type:
+                          Beschäftigungsart:
                         </span>{" "}
                         {job.employmentType}
                       </p>
@@ -168,7 +168,7 @@ const JobOffers = () => {
                         }}
                       >
                         <span style={{ fontWeight: "bold" }}>
-                          Required Skills:
+                          Erforderliche Fähigkeiten:
                         </span>
                         <ul
                           style={{
