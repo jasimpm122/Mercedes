@@ -42,7 +42,7 @@ function Contact() {
             
 
             <p style={{ marginBottom: '20px' }}>
-            22339 Hamburg-Hummelsbüttel<br />
+            Vincent-van-Gogh-Str. 29, 13057 Berlin<br />
                 E-Mail: <a href="mailto:info@konzept-sb.de" style={{ color: '#007BFF', textDecoration: 'none' }}>office@lavida-consulting.de</a>
             </p>
 

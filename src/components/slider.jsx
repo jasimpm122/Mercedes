@@ -24,7 +24,7 @@ const Slider = () => {
                 textAlign: 'center',
                 fontFamily: 'Verdana, sans-serif'
             }}>
-                <p style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold' }}>Du bist deinem Traumjob näher, als du denkst </p>
+                <p style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold' }}>Erfolg durch maßgeschneiderte Beratungslösungen ermöglichen.</p>
                 <a style={{ marginTop: '5px', display: 'block', fontSize: '1rem' }}>mach weiter!</a>
             </div>
         </div>

@@ -38,12 +38,7 @@ function Details() {
                 SB KONZEPT
             </h2>
             <p style={{ marginBottom: '20px' }}>
-SB Konzept & Vending GmbH ist seit dem 27.11.2024 aktiv.<br />
- Das Gründungskapital des Unternehmens ist 25.000,00 EUR.<br />
-Seit der Gründung des Unternehmens ist Samir Assaf Geschäftsführer.<br />
- Die letzte bekannte Änderung im Handelsregister war am 27.11.2024.<br />
-  Unter der Rubrik Bekanntmachungen können alle Handelsregistereinträge abgerufen werden.<br />
-Handelsregisternummer HRB 40063 (Amtsgericht Potsdam)
+            Die La Vida Consulting GmbH wurde am 21. Dezember 2024 gegründet und ist unter der Handelsregisternummer HRB 270651 beim Amtsgericht Berlin (Charlottenburg) eingetragen. Mit einem Stammkapital von 25.000 EUR hat das Unternehmen seinen Sitz in der Vincent-van-Gogh-Straße 29, 13057 Berlin. Unter der Leitung von Leonie König, die seit der Gründung als Geschäftsführerin tätig ist, bietet die La Vida Consulting GmbH maßgeschneiderte Beratungsdienstleistungen an, die auf die individuellen Bedürfnisse ihrer Kunden abgestimmt sind. Alle offiziellen Bekanntmachungen und Dokumente des Unternehmens sind im Handelsregister einsehbar.
             </p>
 
             <h3 style={{
@@ -58,7 +53,7 @@ Handelsregisternummer HRB 40063 (Amtsgericht Potsdam)
             
 
             <p style={{ marginBottom: '20px' }}>
-            22339 Hamburg-Hummelsbüttel<br />
+            Vincent-van-Gogh-Str. 29, 13057 Berlin<br />
                 E-Mail: <a href="mailto:info@konzept-sb.de" style={{ color: '#007BFF', textDecoration: 'none' }}>office@lavida-consulting.de</a>
             </p>
         </div>

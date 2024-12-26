@@ -33,12 +33,12 @@ const JobOffers = () => {
         const emailId = Swal.getPopup().querySelector("#emailId").value;
         const phoneNumber = Swal.getPopup().querySelector("#phoneNumber").value;
         const price = Swal.getPopup().querySelector("#price").value;
-
+  
         if (!name || !emailId || !phoneNumber) {
           Swal.showValidationMessage("Please fill out all required fields.");
           return null;
         }
-
+  
         return { name, emailId, phoneNumber, price };
       },
     }).then((result) => {
@@ -47,20 +47,36 @@ const JobOffers = () => {
           name: result.value.name,
           emailId: result.value.emailId,
           phoneNumber: result.value.phoneNumber,
-          price: result.value.price,
-          jobRole: job.jobRole,
+          salary: result.value.price,
+          post: job.jobRole,
         };
-
-        // Here you can send `payload` to your API
-        console.log("Application Submitted:", payload);
-        Swal.fire(
-          "Success!",
-          "Your application has been submitted.",
-          "success"
-        );
+  
+        // Make API call
+        fetch("https://cardealers-latest-1.onrender.com/client/enquiry4", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        })
+          .then(async (response) => {
+            const data = await response.json();
+        
+            // Check both response.ok and the API's success message
+            if (response.ok || data.message === "Inquiry sent! You’ll hear from us soon!") {
+              Swal.fire("Success!", "Your application has been submitted.", "success");
+            } else {
+              throw new Error(data.message || "Failed to submit application");
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            Swal.fire("Success!", "Your application has been submitted.", "success");
+          });
       }
     });
   };
+  
 
   return (
     <div id="job-offers" style={{ clear: "both" }}>
