@@ -143,7 +143,7 @@ const JobOffers = () => {
                           marginBottom: "1rem",
                         }}
                       >
-                        <span style={{ fontWeight: "bold" }}>Standort:</span>{" "}
+                        <span style={{ fontWeight: "bold" }}>Vergütung:</span>{" "}
                         {job.location}
                       </p>
                       <p
@@ -159,7 +159,7 @@ const JobOffers = () => {
                         </span>{" "}
                         {job.employmentType}
                       </p>
-                      <div
+                      {/* <div
                         style={{
                           fontSize: "1rem",
                           fontWeight: "600",
@@ -195,7 +195,7 @@ const JobOffers = () => {
                             <li>No skills listed</li>
                           )}
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
 
                     <div className="d-grid w-100">

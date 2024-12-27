@@ -32,7 +32,7 @@ const Footer = () => {
             <ul style={{ listStyleType: "none", padding: 0, margin: "10px 0" }}>
               <li>
                 <a
-                  href="/about"
+                  Link to="/about"
                   style={{
                     color: "#7f8c8d",
                     textDecoration: "none",
@@ -56,7 +56,7 @@ const Footer = () => {
               </li> */}
               <li>
                 <a
-                  href="/careers"
+                  Link to="/careers"
                   style={{
                     color: "#7f8c8d",
                     textDecoration: "none",
@@ -68,7 +68,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/details"
+                  Link to="/details"
                   style={{
                     color: "#7f8c8d",
                     textDecoration: "none",
