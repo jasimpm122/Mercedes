@@ -29,13 +29,13 @@ const AboutSection = () => {
           </Col>
         </Row>
         {/* Hours and Contact */}
-        <div className="text-center mt-4">
+        {/* <div className="text-center mt-4">
           <h5 className="fw-bold">Montag bis Samstag 8-18 Uhr</h5>
           <p><a href="mailto:info@konzept-sb.de" style={{ color: '#007BFF', textDecoration: 'underline' }}>office@lavida-consulting.de</a></p>
           <p><Link to="/details" style={{ color: '#007BFF', textDecoration: 'underline' }}>
           Impressum
         </Link></p>
-        </div>
+        </div> */}
       </Container>
     </div>
   );

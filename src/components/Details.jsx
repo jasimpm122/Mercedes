@@ -35,7 +35,7 @@ function Details() {
                 color: '#333',
                 marginBottom: '10px',
             }}>
-                SB KONZEPT
+                La vida
             </h2>
             <p style={{ marginBottom: '20px' }}>
             Die La Vida Consulting GmbH wurde am 21. Dezember 2024 gegründet und ist unter der Handelsregisternummer HRB 270651 beim Amtsgericht Berlin (Charlottenburg) eingetragen. Mit einem Stammkapital von 25.000 EUR hat das Unternehmen seinen Sitz in der Vincent-van-Gogh-Straße 29, 13057 Berlin. Unter der Leitung von Leonie König, die seit der Gründung als Geschäftsführerin tätig ist, bietet die La Vida Consulting GmbH maßgeschneiderte Beratungsdienstleistungen an, die auf die individuellen Bedürfnisse ihrer Kunden abgestimmt sind. Alle offiziellen Bekanntmachungen und Dokumente des Unternehmens sind im Handelsregister einsehbar.

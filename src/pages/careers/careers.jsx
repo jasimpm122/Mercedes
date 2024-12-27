@@ -20,9 +20,9 @@ const JobOffers = () => {
       title: `Apply for ${job.jobRole}`,
       html: `
         <input type="text" id="name" class="swal2-input" placeholder="Name">
-        <input type="email" id="emailId" class="swal2-input" placeholder="Email Address">
-        <input type="text" id="phoneNumber" class="swal2-input" placeholder="Phone Number">
-        <input type="text" id="price" class="swal2-input" placeholder="Expected Salary">
+        <input type="email" id="emailId" class="swal2-input" placeholder="E-Mail-Adresse">
+        <input type="text" id="phoneNumber" class="swal2-input" placeholder="Telefonnummer">
+        <input type="text" id="price" class="swal2-input" placeholder="Erwartete Gehalts">
       `,
       focusConfirm: false,
       showCancelButton: true,

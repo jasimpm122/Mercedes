@@ -17,11 +17,11 @@ const Footer = () => {
           {/* Logo Section */}
           <Col md={4} className="text-center text-md-left mb-3 mb-md-0">
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-              {/* <img
-                logo
+              <img
+                     src={logo} 
                 alt="La vida Logo"
-                style={{ height: "40px", marginRight: "10px" }}
-              /> */}
+                style={{ height: "120px", marginRight: "10px" }}
+              />
               <h2 style={{ fontSize: "1.5rem", color: "#2c3e50", fontWeight: "bold" }}>La Vida</h2>
             </div>
           </Col>

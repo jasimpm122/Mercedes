@@ -48,7 +48,7 @@ const Header = () => {
                                 <img 
                                     src={logo} 
                                     alt="Logo" 
-                                    style={{ height: "40px", width: "auto" }} 
+                                    style={{ height: "80px", width: "auto" }} 
                                     className="me-2" 
                                 />
                                 <span className="fw-bold text-dark" style={{ fontSize: '1rem' }}>La Vida</span>
@@ -64,7 +64,7 @@ const Header = () => {
                                     <Nav.Link as={Link} to="/details" className="text-dark">Impressum</Nav.Link>
                                     <Nav.Link as={Link} to="/careers" className="text-dark">Careers</Nav.Link>
                                 </Nav>
-                                <Nav>
+                                {/* <Nav>
                                     {user.email && (
                                         <Nav.Link as={Link} to="/my-rentals" className="text-dark">
                                             My Rentals <LiaCarSideSolid size="1.25em" className="align-text-top" />
@@ -78,7 +78,7 @@ const Header = () => {
                                             Log out
                                         </Button>
                                     )}
-                                </Nav>
+                                </Nav> */}
                             </Navbar.Collapse>
                         </Container>
                     </Navbar>
