@@ -23,7 +23,13 @@ const AboutSection = () => {
                 Über uns
               </h1>
               <p className="about-text fs-5 m-0">
-              Die La Vida Consulting GmbH wurde am 21. Dezember 2024 gegründet und ist unter der Handelsregisternummer HRB 270651 beim Amtsgericht Berlin (Charlottenburg) eingetragen. Mit einem Stammkapital von 25.000 EUR hat das Unternehmen seinen Sitz in der Vincent-van-Gogh-Straße 29, 13057 Berlin. Unter der Leitung von Leonie König, die seit der Gründung als Geschäftsführerin tätig ist, bietet die La Vida Consulting GmbH maßgeschneiderte Beratungsdienstleistungen an, die auf die individuellen Bedürfnisse ihrer Kunden abgestimmt sind. Alle offiziellen Bekanntmachungen und Dokumente des Unternehmens sind im Handelsregister einsehbar.
+              Die La Vida Consulting GmbH ist ein professionelles Beratungsunternehmen, das sich darauf spezialisiert hat, Unternehmen dabei zu unterstützen, in einem wettbewerbsintensiven Umfeld erfolgreich zu sein. Gegründet am 21. Dezember 2024 und mit Sitz in der Vincent-van-Gogh-Str. 29, 13057 Berlin, bieten wir eine breite Palette an Beratungsdienstleistungen an, mit einem besonderen Fokus auf Marketing, Werbung und strategische Wachstumslösungen.
+
+Unsere Dienstleistungen sind darauf ausgerichtet, Unternehmen durch maßgeschneiderte Strategien zu stärken, die die Markenbekanntheit steigern, Betriebsabläufe optimieren und die Leistung verbessern. Ob es um die Entwicklung innovativer Marketingkampagnen, die Gestaltung wirkungsvoller Werbestrategien oder die Begleitung von Unternehmen bei komplexen Herausforderungen geht – wir arbeiten eng mit unseren Kunden zusammen, um ihr volles Potenzial auszuschöpfen.
+
+Unter der Leitung von Leonie König kombiniert unser engagiertes und erfahrenes Team tiefgehendes Branchenwissen mit kreativen Ansätzen, um messbare Ergebnisse zu erzielen. Bei der La Vida Consulting GmbH verstehen wir, dass jedes Unternehmen einzigartig ist, und sind stolz darauf, flexible und personalisierte Lösungen anzubieten, die sich an den spezifischen Bedürfnissen und Zielen unserer Kunden orientieren.
+
+Mit einer soliden Basis und einem klaren Engagement für Exzellenz ist die La Vida Consulting GmbH Ihr vertrauenswürdiger Partner, um die Herausforderungen des modernen Geschäftslebens zu meistern, Wachstum voranzutreiben und nachhaltigen Erfolg zu erzielen. Lassen Sie uns gemeinsam Herausforderungen in Chancen und Ideen in Realität verwandeln.
               </p>
             </div>
           </Col>
