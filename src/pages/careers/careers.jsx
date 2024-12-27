@@ -84,7 +84,7 @@ const JobOffers = () => {
         <Row className="mb-5">
           <Col>
             <h1 className="fs-1 text-center text-uppercase">
-              Kubota Job Opportunities
+            Stellenangebote
             </h1>
           </Col>
         </Row>
@@ -202,7 +202,7 @@ const JobOffers = () => {
                       <Button
                         onClick={() => handleApplyNowClick(job)}
                         style={{
-                          backgroundColor: "black",
+                          backgroundColor: "#0066ff",
                           color: "white",
                           fontSize: "1rem",
                           border: "none",

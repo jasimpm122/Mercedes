@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import { MdLocationOn } from "react-icons/md";
-import { AiOutlineCalendar } from "react-icons/ai";
-import { FaTruck } from "react-icons/fa";
-import { BiSolidOffer } from "react-icons/bi";
+import { MdOutlineMonitor } from "react-icons/md"; // Monitor icon for Flexibilität
+import { AiOutlineClockCircle } from "react-icons/ai"; // Clock icon for Höhere Produktivität
+import { BiMoney } from "react-icons/bi";
+import '..//components/general/slider.css'; // Money icon for Kosteneinsparungen
 
 const FeaturesSection = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -17,63 +17,47 @@ const FeaturesSection = () => {
     }, []);
 
     return (
-        <div id="features-section">
-            <Container className="py-5">
-                <Row>
-                    <Col>
-                        <h1
-                            className="quinary-color p-0 mb-4"
-                            style={{ fontSize: isMobile ? '1.5rem' : '2.5rem' }}
-                        >
-                            So einfach geht's mit La Vida Consulting GmbH
-                        </h1>
+        <div id="features-section" style={{ backgroundColor: "#ffffff", padding: "50px 0" }}>
+            <Container>
+                <Row className="text-center">
+                    {/* Flexibilität */}
+                    <Col md={4} className="mb-4">
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            <MdOutlineMonitor size="3rem" color="#2c3e50" />
+                            <h4 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#2c3e50', margin: '10px 0' }}>
+                                Flexibilität
+                            </h4>
+                            <ul style={{ fontSize: '1rem', color: '#7f8c8d', textAlign: 'left', padding: '0 15px' }}>
+                                <li>Individuelle Arbeitszeiten: Möglichkeit, Arbeitszeiten festzulegen, die den persönlichen und familiären Bedürfnissen entsprechen.</li>
+                                <li>Bessere Work-Life-Balance: Mehr Kontrolle über Beruf und Privatleben, weniger Stress und Burnout.</li>
+                            </ul>
+                        </div>
                     </Col>
-                </Row>
-                <Row>
-                    <Col xs={4}>
-                        <BiSolidOffer size="2.5em" color="white" />
-                        <h4
-                            className="quinary-color py-1"
-                            style={{ fontSize: isMobile ? '1rem' : '1.25rem' }}
-                        >
-                            Top Beratung und Dienstleistungen
-                        </h4>
-                        <p
-                            className="quinary-color m-0 pb-2"
-                            style={{ fontSize: isMobile ? '0.9rem' : '1rem' }}
-                        >
-                            Wir bieten maßgeschneiderte Lösungen für Ihre geschäftlichen Herausforderungen.
-                        </p>
+                    {/* Höhere Produktivität */}
+                    <Col md={4} className="mb-4">
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            <AiOutlineClockCircle size="3rem" color="#2c3e50" />
+                            <h4 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#2c3e50', margin: '10px 0' }}>
+                                Höhere Produktivität
+                            </h4>
+                            <ul style={{ fontSize: '1rem', color: '#7f8c8d', textAlign: 'left', padding: '0 15px' }}>
+                                <li>Weniger Ablenkungen: Weniger Bürolärm und Unterbrechungen können zu mehr Konzentration und Effizienz führen.</li>
+                                <li>Angenehme Umgebung: Das Arbeiten in einem personalisierten Raum kann die Konzentration und Leistung verbessern.</li>
+                            </ul>
+                        </div>
                     </Col>
-                    <Col xs={4}>
-                        <AiOutlineCalendar size="2.5em" color="white" />
-                        <h4
-                            className="quinary-color py-1"
-                            style={{ fontSize: isMobile ? '1rem' : '1.25rem' }}
-                        >
-                            Flexible Zeitplanung
-                        </h4>
-                        <p
-                            className="quinary-color m-0 pb-2"
-                            style={{ fontSize: isMobile ? '0.9rem' : '1rem' }}
-                        >
-                            Vereinbaren Sie individuelle Beratungstermine ganz nach Ihrem Zeitplan.
-                        </p>
-                    </Col>
-                    <Col xs={4}>
-                        <FaTruck size="2.5em" color="white" />
-                        <h4
-                            className="quinary-color py-1"
-                            style={{ fontSize: isMobile ? '1rem' : '1.25rem' }}
-                        >
-                            Dienstleistungen vor Ort
-                        </h4>
-                        <p
-                            className="quinary-color m-0 pb-2"
-                            style={{ fontSize: isMobile ? '0.9rem' : '1rem' }}
-                        >
-                            Wir kommen zu Ihnen oder bieten unsere Leistungen digital europaweit an.
-                        </p>
+                    {/* Kosteneinsparungen */}
+                    <Col md={4} className="mb-4">
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            <BiMoney size="3rem" color="#2c3e50" />
+                            <h4 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#2c3e50', margin: '10px 0' }}>
+                                Kosteneinsparungen
+                            </h4>
+                            <ul style={{ fontSize: '1rem', color: '#7f8c8d', textAlign: 'left', padding: '0 15px' }}>
+                                <li>Keine Pendelkosten: Sparen Sie Geld für Transport, Benzin und Parken.</li>
+                                <li>Reduzierte tägliche Ausgaben: Weniger Ausgaben für Arbeitskleidung, Mittagessen und andere Bürokosten.</li>
+                            </ul>
+                        </div>
                     </Col>
                 </Row>
             </Container>

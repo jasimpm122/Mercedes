@@ -1,91 +1,124 @@
 import React from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import { IoLocation } from "react-icons/io5";
-import { BsTelephoneFill } from "react-icons/bs";
-import { GrMail } from "react-icons/gr";
-import { BiLogoFacebook, BiLogoLinkedin } from "react-icons/bi";
-import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
-import { useLocation } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+import logo from "../assets/images/newcar.PNG"; 
 
 const Footer = () => {
-  const location = useLocation();
-
   return (
-    <>
-      {!location.pathname.includes("admin") && (
-        <footer id="footer" className="secondary-bg-color">
-          <Container className="pt-3 pb-2">
-            <Row>
-              <Col>
-                <h1 className="fs-1 text-center quinary-color">
-                  La Vida Consulting GmbH
-                </h1>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <Row>
-                  <Col>
-                    <h4 className="fs-4 text-white fw-700">
-                      Kontaktieren Sie uns
-                    </h4>
-                    <p className="fs-6 text-white m-0">
-                      <span>
-                        <IoLocation className="header-line-2-icon" />
-                        &nbsp;
-                        <a
-                          href="https://goo.gl/maps/2rkkAA9FP5pegCXF9"
-                          target="_blank"
-                          className="text-white"
-                        >
-                          Deutschland
-                        </a>
-                      </span>
-                      <br />
-                      <span>
-                        <GrMail className="header-line-2-icon" />
-                        &nbsp;
-                        <a
-                          href="mailto:info@konzept-sb.de"
-                          target="_blank"
-                          className="text-white"
-                        >
-                          office@lavida-consulting.de
-                        </a>
-                      </span>
-                    </p>
-                    <div className="social-icon">
-                      <ul>
-                        <li>
-                          <a href="https://www.facebook.com/" target="_blank">
-                            <BiLogoFacebook />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://twitter.com/" target="_blank">
-                            <AiOutlineTwitter />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://www.linkedin.com/" target="_blank">
-                            <BiLogoLinkedin />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://www.instagram.com/" target="_blank">
-                            <AiFillInstagram />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </footer>
-      )}
-    </>
+    <footer
+      style={{
+        backgroundColor: "#ffffff",
+        padding: "30px 0",
+        borderTop: "1px solid #eaeaea",
+        fontFamily: "Arial, sans-serif",
+      }}
+    >
+      <Container>
+        <Row className="align-items-center">
+          {/* Logo Section */}
+          <Col md={4} className="text-center text-md-left mb-3 mb-md-0">
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+              {/* <img
+                logo
+                alt="La vida Logo"
+                style={{ height: "40px", marginRight: "10px" }}
+              /> */}
+              <h2 style={{ fontSize: "1.5rem", color: "#2c3e50", fontWeight: "bold" }}>La Vida</h2>
+            </div>
+          </Col>
+
+          {/* Navigation Section */}
+          <Col md={4} className="text-center mb-3 mb-md-0">
+            <h5 style={{ fontSize: "1rem", fontWeight: "bold", color: "#2c3e50" }}>FIRMA</h5>
+            <ul style={{ listStyleType: "none", padding: 0, margin: "10px 0" }}>
+              <li>
+                <a
+                  href="/about"
+                  style={{
+                    color: "#7f8c8d",
+                    textDecoration: "none",
+                    fontSize: "0.9rem",
+                  }}
+                >
+                  Über uns
+                </a>
+              </li>
+              {/* <li>
+                <a
+                  href="/benefits"
+                  style={{
+                    color: "#7f8c8d",
+                    textDecoration: "none",
+                    fontSize: "0.9rem",
+                  }}
+                >
+                  Nutzen
+                </a>
+              </li> */}
+              <li>
+                <a
+                  href="/careers"
+                  style={{
+                    color: "#7f8c8d",
+                    textDecoration: "none",
+                    fontSize: "0.9rem",
+                  }}
+                >
+                  Arbeitsplätze
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/details"
+                  style={{
+                    color: "#7f8c8d",
+                    textDecoration: "none",
+                    fontSize: "0.9rem",
+                  }}
+                >
+                  Impressum
+                </a>
+              </li>
+              {/* <li>
+                <a
+                  href="/privacy-policy"
+                  style={{
+                    color: "#7f8c8d",
+                    textDecoration: "none",
+                    fontSize: "0.9rem",
+                  }}
+                >
+                  Datenschutzrichtlinie
+                </a>
+              </li> */}
+            </ul>
+          </Col>
+
+          {/* Contact Section */}
+          <Col md={4} className="text-center text-md-right">
+            <h5 style={{ fontSize: "1rem", fontWeight: "bold", color: "#2c3e50" }}>KONTAKT</h5>
+            <a
+              href="mailto:office@lavida-consulting.de"
+              style={{
+                color: "#7f8c8d",
+                textDecoration: "none",
+                fontSize: "0.9rem",
+              }}
+            >
+              office@lavida-consulting.de
+            </a>
+          </Col>
+        </Row>
+
+        {/* Footer Bottom */}
+        <Row className="mt-3">
+          <Col className="text-center">
+            <p style={{ fontSize: "0.8rem", color: "#7f8c8d", margin: 0 }}>
+              © 2024 · La vida · Alle Rechte vorbehalten
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
   );
 };
 

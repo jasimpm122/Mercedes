@@ -6,15 +6,16 @@ import CarSearch from "../components/car-search"
 import FeaturesSection from '../components/features-section';
 import CustomerReview from '../components/customer-reviews';
 import ContactSection from '../components/contact-section';
-import CountrySection from '../components/CountrySection';
+import CountrySection from '../pages/careers/careers';
 const Home = () => {
 
     return (
         <div id="homepage">
             <Slider/>
 
-            {/* <CarSearch /> */}
+          
             <FeaturesSection/>
+            <CountrySection />
             {/* <CustomerReview/>
             <ContactSection/> */}
         </div>
