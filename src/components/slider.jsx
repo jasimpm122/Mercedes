@@ -35,17 +35,16 @@ const Slider = () => {
                 marginBottom: '1rem',
                 color: '#fff',
             }}>
-                Homeoffice leicht gemacht!
+                La Vida Consulting GmbH
             </h1>
             <p className="slide-in" style={{
                 fontSize: '1.2rem',
                 marginBottom: '2rem',
+                color: '#fff',
             }}>
-                Auf der Suche nach einer neuen Stelle?<br />
-                Wir stellen jetzt ein!<br />
-                Verwaltungsmitarbeiter, Kundendienstmitarbeiter
+                Ihr vertrauenswürdiger Partner für Managementberatung und exzellente Werbedienstleistungen.
             </p>
-            <div>
+            {/* <div>
                 <button
                     style={{
                         padding: '10px 20px',
@@ -62,7 +61,7 @@ const Slider = () => {
                 >
                     Entdecke mehr
                 </button>
-            </div>
+            </div> */}
         </div>
     );
 };

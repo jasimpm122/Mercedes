@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import { MdOutlineMonitor } from "react-icons/md";
-import { AiOutlineClockCircle } from "react-icons/ai";
-import { BiMoney } from "react-icons/bi";
+import { BsPeople, BsGraphUp, BsGear, BsBriefcase } from "react-icons/bs";// Icon for Consulting
+import { MdOutlineCampaign } from "react-icons/md"; // Icon for Marketing
+import { AiFillPieChart } from "react-icons/ai"; // Icon for Advertising
 import { useInView } from 'react-intersection-observer'; // For viewport detection
 import { motion } from 'framer-motion'; // For animation
 
@@ -26,38 +26,38 @@ const FeaturesSection = () => {
         <div id="features-section" style={{ backgroundColor: "#ffffff", padding: "50px 0" }}>
             <Container>
                 <Row className="text-center">
-                    {/* Flexibilität */}
+                    {/* Management Consulting */}
                     <Col md={4} className="mb-4">
                         <FeatureBox
-                            Icon={MdOutlineMonitor}
-                            title="Flexibilität"
+                            Icon={BsBriefcase}
+                            title="Managementberatung"
                             list={[
-                                "Individuelle Arbeitszeiten: Möglichkeit, Arbeitszeiten festzulegen, die den persönlichen und familiären Bedürfnissen entsprechen.",
-                                "Bessere Work-Life-Balance: Mehr Kontrolle über Beruf und Privatleben, weniger Stress und Burnout."
+                                "Strategische Planung: Unterstützung bei der Optimierung von Abläufen und der Verbesserung der organisatorischen Leistung.",
+                                "Prozessoptimierung: Identifikation und Beseitigung von Ineffizienzen zur Steigerung der Produktivität."
                             ]}
                             variants={slideInVariants}
                         />
                     </Col>
-                    {/* Höhere Produktivität */}
+                    {/* Marketing Services */}
                     <Col md={4} className="mb-4">
                         <FeatureBox
-                            Icon={AiOutlineClockCircle}
-                            title="Höhere Produktivität"
+                            Icon={MdOutlineCampaign}
+                            title="Marketing-Dienstleistungen"
                             list={[
-                                "Weniger Ablenkungen: Weniger Bürolärm und Unterbrechungen können zu mehr Konzentration und Effizienz führen.",
-                                "Angenehme Umgebung: Das Arbeiten in einem personalisierten Raum kann die Konzentration und Leistung verbessern."
+                                "Markenstrategie: Entwicklung wirkungsvoller Kampagnen zur Steigerung der Markenbekanntheit.",
+                                "Zielgerichtetes Marketing: Erreichen der richtigen Zielgruppe mit maßgeschneiderten Strategien."
                             ]}
                             variants={slideInVariants}
                         />
                     </Col>
-                    {/* Kosteneinsparungen */}
+                    {/* Advertising Services */}
                     <Col md={4} className="mb-4">
                         <FeatureBox
-                            Icon={BiMoney}
-                            title="Kosteneinsparungen"
+                            Icon={AiFillPieChart}
+                            title="Werbedienstleistungen"
                             list={[
-                                "Keine Pendelkosten: Sparen Sie Geld für Transport, Benzin und Parken.",
-                                "Reduzierte tägliche Ausgaben: Weniger Ausgaben für Arbeitskleidung, Mittagessen und andere Bürokosten."
+                                "Kreative Kampagnen: Gestaltung und Umsetzung einprägsamer und visuell ansprechender Anzeigen.",
+                                "Mediaplanung: Sicherung der besten Werbeplätze für maximale Reichweite und Rendite."
                             ]}
                             variants={slideInVariants}
                         />
