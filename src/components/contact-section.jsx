@@ -1,68 +1,111 @@
-import React from 'react';
-import contactIllustration from '../assets/images/vehicles/contact.png';
+import React, { useState } from "react";
+import "./Contact.css";
 
-function Contact() {
-    const isMobileOrTablet = window.innerWidth <= 768;
+const ContactUs = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    reason: "",
+    description: "",
+  });
 
-    return (
-        <div style={{
-            padding: isMobileOrTablet ? '20px' : '40px',
-            maxWidth: '800px',
-            margin: '0 auto', // Adjusted for space below navbar
-            lineHeight: '1.6',
-            fontFamily: 'Arial, sans-serif',
-            color: '#333',
-            textAlign: isMobileOrTablet ? 'center' : 'left',
-        }}>
-            <h1 style={{
-                fontSize: isMobileOrTablet ? '24px' : '32px',
-                fontWeight: 'bold',
-                marginBottom: '5px',
-                color: '#333',
-            }}>
-                La Vida - KONTAKT
-            </h1>
-            <p style={{
-                fontSize: isMobileOrTablet ? '12px' : '14px',
-                marginBottom: '40px',
-                color: '#666',
-            }}>
-                Wir sind verfügbar von Montag bis Samstag, 8:00 - 18:00 Uhr.
-            </p>
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
 
-            <h3 style={{
-                fontSize: isMobileOrTablet ? '14px' : '16px',
-                fontWeight: 'bold',
-                color: '#333',
-                marginBottom: '5px',
-            }}>
-                Kontakt Informationen
-            </h3>
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-            
+    const jsonPayload = {
+      name: formData.name,
+      phoneNumber: formData.phone,
+      emailId: formData.email,
+      reason: formData.reason,
+      description: formData.description,
+    };
 
-            <p style={{ marginBottom: '20px' }}>
-            Vincent-van-Gogh-Str. 29, 13057 Berlin<br />
-                E-Mail: <a href="mailto:info@konzept-sb.de" style={{ color: '#007BFF', textDecoration: 'none' }}>office@lavida-consulting.de</a>
-            </p>
+    try {
+      const response = await fetch("https://cardealers-latest-1.onrender.com/client/enquiry5", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(jsonPayload),
+      });
 
-            <h2 style={{
-                fontSize: isMobileOrTablet ? '18px' : '20px',
-                fontWeight: 'bold',
-                color: '#333',
-                marginBottom: '10px',
-            }}>
-               Social Media
-            </h2>
-            <p style={{ marginBottom: '20px' }}>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="contact-link">Facebook</a> 
-                        <span> | </span>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="contact-link">Instagram</a>
+      if (response.ok) {
+        alert("Vielen Dank für Ihre Nachricht!"); // Success message in German
+      } else {
+        alert("Es gab ein Problem beim Senden Ihrer Nachricht."); // Error message in German
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."); // Error alert in German
+    }
+  };
 
-            </p>
-
-           
+  return (
+    <div className="contact-us-container">
+      <h1>Kontaktieren Sie uns</h1>
+      <form onSubmit={handleSubmit}>
+        <div className="form-row">
+          <input
+            type="text"
+            name="name"
+            placeholder="Name*"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
         </div>
-    );
-}
-export default Contact;
+        <div className="form-row">
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Telefonnummer*"
+            value={formData.phone}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-row">
+          <input
+            type="email"
+            name="email"
+            placeholder="E-Mail*"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-row">
+          <select
+            name="reason"
+            value={formData.reason}
+            onChange={handleChange}
+            required
+          >
+            <option value="">Grund für Kontakt*</option>
+            <option value="Service">Service</option>
+            <option value="Andere">Andere</option>
+          </select>
+        </div>
+        <textarea
+          name="description"
+          placeholder="Beschreibung*"
+          value={formData.description}
+          onChange={handleChange}
+          required
+        ></textarea>
+        <button type="submit">Senden</button>
+      </form>
+    </div>
+  );
+};
+
+export default ContactUs;

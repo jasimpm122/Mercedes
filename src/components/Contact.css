@@ -1,46 +1,64 @@
-.contact-container {
+.contact-us-container {
+  max-width: 500px;
+  margin: 50px auto;
   padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 30px; /* Reduced top padding */
+  background-image: url('../assets/images/699.jpg'); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the whole container */
+  background-position: center; /* Centers the image */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
-  color: #333;
+  color: #fff; /* White text to contrast with the background */
 }
-.contact-container h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-align: left;
+
+h1 {
+  text-align: center;
   margin-bottom: 20px;
   color: #333;
 }
 
-.contact-section-title {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.contact-link {
-  color: #007BFF;
-  text-decoration: none;
-  margin: 0 5px;
-}
-
-.contact-content {
+form {
   display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
-.contact-info {
-  max-width: 600px;
+.form-row {
+  margin-bottom: 15px;
 }
 
-.contact-image {
+input,
+select,
+textarea {
   width: 100%;
-  height: auto;
-  max-width: 500px;
-  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0066ff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+  font-size: 14px;
 }

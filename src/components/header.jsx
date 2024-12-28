@@ -57,12 +57,11 @@ const Header = () => {
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="me-auto">
                                     <Nav.Link as={Link} to="/" className="text-dark">Home</Nav.Link>
-                                    <Nav.Link as={Link} to="/about" className="text-dark">About</Nav.Link>
-                                    {/* <Nav.Link as={Link} to="/services" className="text-dark">Services</Nav.Link> */}
-                                    {/* <Nav.Link as={Link} to="/vehicles" className="text-dark">Vehicles</Nav.Link> */}
-                                    {/* <Nav.Link as={Link} to="/contact" className="text-dark">Contact</Nav.Link> */}
-                                    <Nav.Link as={Link} to="/details" className="text-dark">Impressum</Nav.Link>
-                                    <Nav.Link as={Link} to="/careers" className="text-dark">Careers</Nav.Link>
+                                    <Nav.Link as={Link} to="/about" className="text-dark">Über uns</Nav.Link>
+<Nav.Link as={Link} to="/contact" className="text-dark">Kontakt</Nav.Link>
+<Nav.Link as={Link} to="/details" className="text-dark">Impressum</Nav.Link>
+<Nav.Link as={Link} to="/careers" className="text-dark">Karriere</Nav.Link>
+
                                 </Nav>
                                 {/* <Nav>
                                     {user.email && (

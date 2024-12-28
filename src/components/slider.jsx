@@ -7,7 +7,7 @@ const Slider = () => {
     const navigate = useNavigate(); // Initialize the navigate function
 
     const handleButtonClick = () => {
-        navigate('/careers'); // Navigate to the careers page
+        navigate('/contact'); // Navigate to the careers page
     };
 
     return (
@@ -44,24 +44,27 @@ const Slider = () => {
             }}>
                 Ihr vertrauenswürdiger Partner für Managementberatung und exzellente Werbedienstleistungen.
             </p>
-            {/* <div>
-                <button
-                    style={{
-                        padding: '10px 20px',
-                        fontSize: '1rem',
-                        fontWeight: 'bold',
-                        color: '#fff',
-                        backgroundColor: '#0066ff', // Blue color for button
-                        border: 'none',
-                        borderRadius: '5px',
-                        marginRight: '10px',
-                        cursor: 'pointer',
-                    }}
-                    onClick={handleButtonClick} // Handle click event
-                >
-                    Entdecke mehr
-                </button>
-            </div> */}
+
+            {/* Add button below the text */}
+            <button
+    onClick={handleButtonClick} // Handle the button click event
+    style={{
+        padding: '10px 20px',
+        fontSize: '1rem',
+        fontWeight: 'bold',
+        color: '#fff',
+        backgroundColor: '#0066ff', // Button color
+        border: 'none',
+        borderRadius: '5px',
+        cursor: 'pointer',
+        marginTop: '20px', // Add space above the button
+        width: 'auto', // Adjust the width to fit content
+        maxWidth: '200px', // Set a maximum width to prevent excessive length
+        textAlign: 'center', // Center text in the button
+    }}
+>
+Verbinden
+</button>
         </div>
     );
 };

@@ -101,8 +101,13 @@ const Slider = () => {
                     <p>Auf der Suche nach einer neuen Stelle? Wir stellen jetzt ein!</p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
-                    <button onClick={handleButtonClick}>Entdecke mehr</button>
-                </div>
+    <button 
+        onClick={handleButtonClick} 
+        style={{ width: '250px' }}  // Adjust width as needed
+    >
+        Entdecke mehr
+    </button>
+</div>
             </div>
         </>
     );

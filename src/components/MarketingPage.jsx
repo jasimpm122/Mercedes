@@ -23,10 +23,10 @@ const MarketingPage = () => {
                         <Col>
                             <h1 style={{ fontSize: "3rem", fontWeight: "bold", color: "#0056b3" }}>
                                 <MdOutlineCampaign size="3rem" style={{ marginRight: "10px", color: "#0056b3" }} />
-                                Marketing-Dienstleistungen
+                                Managementberatung, Marketing-Dienstleistungen & Werbedienstleistungen
                             </h1>
                             <p style={{ fontSize: "1.5rem", color: "#00274d" }}>
-                                Steigern Sie Ihre Markenbekanntheit mit zielgerichteten Marketinglösungen.
+                                Optimieren Sie Ihre Geschäftsergebnisse mit umfassenden Lösungen aus den Bereichen Managementberatung, Marketing und Werbung.
                             </p>
                         </Col>
                     </Row>
@@ -35,21 +35,12 @@ const MarketingPage = () => {
                     <Row className="mb-5">
                         <Col md={6}>
                             <h2 style={{ fontSize: "2rem", fontWeight: "bold", color: "#0056b3" }}>
-                                Warum Marketing?
+                                Warum Managementberatung, Marketing & Werbung?
                             </h2>
                             <p style={{ fontSize: "1.2rem", lineHeight: "1.8", color: "#00274d" }}>
-                                Effektives Marketing ist der Schlüssel, um die richtige Zielgruppe zu erreichen, den
-                                Umsatz zu steigern und eine langfristige Kundenbindung aufzubauen. Mit maßgeschneiderten
-                                Strategien und innovativen Ansätzen können Unternehmen ihren Erfolg nachhaltig steigern.
+                                In der heutigen Geschäftswelt ist es entscheidend, eine strategische Vision zu entwickeln, die sowohl Ihre Marke stärkt als auch Ihre Marktposition optimiert. Mit unserer Expertise in Managementberatung, zielgerichtetem Marketing und kreativen Werbedienstleistungen bieten wir Ihnen maßgeschneiderte Lösungen, die Ihr Unternehmen nachhaltig voranbringen.
                             </p>
                         </Col>
-                        {/* <Col md={6}>
-                            <img
-                                src="https://via.placeholder.com/600x400" // Replace with your marketing image path
-                                alt="Marketing"
-                                style={{ width: "100%", borderRadius: "10px", boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)" }}
-                            />
-                        </Col> */}
                     </Row>
 
                     {/* Services Section */}
@@ -67,11 +58,11 @@ const MarketingPage = () => {
                                     color: "#00274d",
                                 }}
                             >
-                                <li>Markenstrategie: Entwicklung einer einzigartigen Markenidentität.</li>
-                                <li>Digitales Marketing: Suchmaschinenoptimierung (SEO), Social Media und PPC-Kampagnen.</li>
-                                <li>Content-Strategie: Erstellung von ansprechendem und relevantem Content.</li>
-                                <li>Marktforschung: Verständnis der Zielgruppe und Marktanalyse.</li>
-                                <li>Kampagnenmanagement: Planung und Durchführung von erfolgreichen Kampagnen.</li>
+                                <li>Managementberatung: Strategische Beratung zur Optimierung Ihrer Unternehmensführung.</li>
+                                <li>Marketing-Dienstleistungen: Entwicklung und Umsetzung von maßgeschneiderten Marketingstrategien.</li>
+                                <li>Werbedienstleistungen: Kreative Kampagnen zur Steigerung der Markenbekanntheit und Kundenbindung.</li>
+                                <li>Marktforschung: Detaillierte Analyse Ihrer Zielgruppe und Marktbedingungen für fundierte Entscheidungen.</li>
+                                <li>Kampagnenmanagement: Planung, Durchführung und Analyse erfolgreicher Marketing- und Werbekampagnen.</li>
                             </ul>
                         </Col>
                     </Row>
