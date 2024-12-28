@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="new ui">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CountrySection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountrySection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MarketingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MarketingPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/general/Jobslider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/general/Jobslider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="ac4d9d1d-d4d8-4e2d-98df-131763c8d977" name="Changes" comment="new bug fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -430,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735371150725</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="new bug fix">
+      <option name="closed" value="true" />
+      <created>1735379440675</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1735379440675</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,6 +454,7 @@
     <MESSAGE value=" chnages new" />
     <MESSAGE value="logo" />
     <MESSAGE value="new ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="new ui" />
+    <MESSAGE value="new bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="new bug fix" />
   </component>
 </project>
